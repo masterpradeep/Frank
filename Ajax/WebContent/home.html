@@ -1,0 +1,2341 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#" class="no-js"> <!--<![endif]-->
+
+<head>
+    <!-- Meta Tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <!-- Title -->
+    <title>Quantiphi home - Quantiphi</title>
+	
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready( function(){
+			setInterval(function(){ 
+				document.getElementById('fvfeedbackbutton0').setAttribute('style','display:block!important; -webkit-animation-duration: 3s;-moz-animation-duration : 3s;-webkit-animation-fill-mode: both;-webkit-animation-iteration-count: 1;-webkit-animation-name: slideInRight;-moz-animation-fill-mode: both; -moz-animation-iteration-count: 1;  -moz-animation-name: slideInRight; ')
+			}, 15000);
+			 
+			//contact page
+			$(".wpcf7-tel").keydown(function(event) {
+				// Allow: backspace, delete, tab, escape, and enter
+				if ( event.keyCode == 46 || event.keyCode == 8 || event.keyCode == 9 || event.keyCode == 27 || event.keyCode == 13 || 
+					 // Allow: Ctrl+A
+					(event.keyCode == 65 && event.ctrlKey === true) || 
+					 // Allow: home, end, left, right
+					(event.keyCode >= 35 && event.keyCode <= 39)) {
+						 // let it happen, don't do anything
+						 return;
+				}
+				else {
+					// Ensure that it is a number and stop the keypress
+					if (event.shiftKey || (event.keyCode < 48 || event.keyCode > 57) && (event.keyCode < 96 || event.keyCode > 105 )) {
+						event.preventDefault(); 
+					}   
+				}
+			});
+				
+			$('#your_name2').on("keypress", function (event) {
+				var englishAlphabet = /[a-zA-Z-'\b ]/;
+				var key = String.fromCharCode(event.which);
+				var browser = navigator.userAgent;
+				if( browser.match(/chrome/i) ){    
+					if (englishAlphabet.test(key)) {
+						return true;
+					}
+				}else{
+					if (event.keyCode == 37 || event.keyCode == 39 || event.keyCode == 9 || englishAlphabet.test(key)) {
+						return true;
+					}
+				}
+				return false;
+			});
+			
+			//careers page
+			
+			$('.name_career').on("keypress", function (event) {
+				var englishAlphabet = /[a-zA-Z-'\b ]/;
+				var key = String.fromCharCode(event.which);
+				var browser = navigator.userAgent;
+				if( browser.match(/chrome/i) ){    
+					if (englishAlphabet.test(key)) {
+						return true;
+					}
+				}else{
+					if (event.keyCode == 37 || event.keyCode == 39 || event.keyCode == 9 || englishAlphabet.test(key)) {
+						return true;
+					}
+				}
+				return false;
+			});
+			
+		});
+			
+	</script>
+		
+	<script>
+		$(document).ready(function(){
+	    $('.accordian h3:eq(0)').addClass('active');
+	      $('.accordian h3').click(function(){
+			$(this).next().slideToggle();
+			if($(this).hasClass('active')){
+			  $(this).addClass('inactive');
+			  $(this).removeClass('active');
+			}else{
+			  $(this).removeClass('inactive');
+			  $(this).addClass('active');
+			}   
+		  });
+		});
+	</script>
+	
+	<!--script>
+		function ToggleIt(elem) {
+		  $(elem).toggleClass('open').next().slideToggle();
+		}
+	</script-->
+	
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-62704040-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+ 
+    <!--    google fonts -->
+    
+    
+<!-- This site is optimized with the Yoast SEO plugin v2.3.2 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="http://www.quantiphi.com/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="home - Quantiphi" />
+<meta property="og:url" content="http://www.quantiphi.com/" />
+<meta property="og:site_name" content="Quantiphi" />
+<meta property="article:publisher" content="https://www.facebook.com/pages/Quantiphi/1574953076063032" />
+<meta property="fb:admins" content="1529474369" />
+<meta property="og:image" content="http://www.quantiphi.com/wp-content/uploads/2015/04/reason-passion-science2-art.png" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="home - Quantiphi"/>
+<meta name="twitter:site" content="@Quantiphi"/>
+<meta name="twitter:domain" content="Quantiphi"/>
+<meta name="twitter:image:src" content="http://www.quantiphi.com/wp-content/uploads/2015/04/reason-passion-science2-art.png"/>
+<meta name="twitter:creator" content="@Quantiphi"/>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/www.quantiphi.com\/","name":"Quantiphi","potentialAction":{"@type":"SearchAction","target":"http:\/\/www.quantiphi.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Organization","url":"http:\/\/www.quantiphi.com\/","sameAs":["https:\/\/www.facebook.com\/pages\/Quantiphi\/1574953076063032","https:\/\/www.linkedin.com\/company\/quantiphi-inc-","https:\/\/twitter.com\/Quantiphi"],"name":"Quantiphi Inc.","logo":"http:\/\/www.quantiphi.com\/wp-content\/uploads\/2015\/05\/footer_logo_new.png"}</script>
+<meta name="alexaVerifyID" content="INNwk_ImYBCvFXGnliylqUhMmhE" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="Quantiphi &raquo; Feed" href="http://www.quantiphi.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Quantiphi &raquo; Comments Feed" href="http://www.quantiphi.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Quantiphi &raquo; home Comments Feed" href="http://www.quantiphi.com/example-1/feed/" />
+<link rel='stylesheet' id='layerslider-css'  href='http://www.quantiphi.com/wp-content/plugins/LayerSlider/static/css/layerslider.css?ver=5.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='ls-google-fonts-css'  href='http://fonts.googleapis.com/css?family=Lato:100,300,regular,700,900%7COpen+Sans:300%7CIndie+Flower:regular%7COswald:300,regular,700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='the_admin_style-css'  href='http://www.quantiphi.com/wp-content/plugins/atomic-penguins-mind-blowing-hover-effects/the_admin.css?ver=4.1.8' type='text/css' media='all' />
+<link rel='stylesheet' id='page_animations-css'  href='http://www.quantiphi.com/wp-content/plugins/atomic-penguins-mind-blowing-hover-effects/animations.css?ver=4.1.8' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.quantiphi.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='scrollbar-css'  href='http://www.quantiphi.com/wp-content/themes/morpheus/css/perfect-scrollbar.css?ver=4.1.8' type='text/css' media='all' />
+<link rel='stylesheet' id='googlefonts-css'  href='//fonts.googleapis.com/css?family=Bentham%7CPinyon+Script%7CBitter%3A400%2C700%7CRaleway%3A300%2C400%2C500%2C600%7CSacramento%7CLato%3A300%2C400%2C900%7COpen+Sans%3A400%2C700%2C800%7CPacifico%7CLobster%7CRoboto%3A400%2C900%2C700%7COswald%3A400%2C700&#038;ver=4.1.8' type='text/css' media='all' />
+<link rel='stylesheet' id='foundation-css'  href='http://www.quantiphi.com/wp-content/themes/morpheus/css/foundation.css' type='text/css' media='all' />
+<link rel='stylesheet' id='magicpopup-css'  href='http://www.quantiphi.com/wp-content/themes/morpheus/css/magnific-popup.css?ver=4.1.8' type='text/css' media='all' />
+<link rel='stylesheet' id='icons-css'  href='http://www.quantiphi.com/wp-content/themes/morpheus/css/font-awesome.min.css?ver=4.1.8' type='text/css' media='all' />
+<link rel='stylesheet' id='superfish-css'  href='http://www.quantiphi.com/wp-content/themes/morpheus/css/superfish.css?ver=4.1.8' type='text/css' media='all' />
+<link rel='stylesheet' id='flexslider-css'  href='http://www.quantiphi.com/wp-content/themes/morpheus/css/flexslider.css' type='text/css' media='all' />
+<link rel='stylesheet' id='plugin-css'  href='http://www.quantiphi.com/wp-content/themes/morpheus/css/plugin.css' type='text/css' media='all' />
+<link rel='stylesheet' id='public-css'  href='http://www.quantiphi.com/wp-content/themes/morpheus/css/public.css' type='text/css' media='all' />
+<link rel='stylesheet' id='morpheus-css'  href='http://www.quantiphi.com/wp-content/themes/morpheus/style.css' type='text/css' media='all' />
+<style id='morpheus-inline-css' type='text/css'>
+.footer-subslogan {
+  color: #fff;
+}
+@media only screen
+and (min-device-width : 320px) and (max-device-width : 667px) {
+.contact_field_main {width: 90%!important;}
+.contact_field {width: 100%!important;clear: both;}
+.contact_field1 {width: 90%!important;}
+.captchanew {float: none!important;}
+.fileupload_cls {width: 100% !important;height: 36px;margin-bottom: 0 !important;}
+.fileupload_cls::before {background-size: contain!important;}
+.button_new4 {width: 91% !important;}
+}
+.form_2 {height: 645px !important;}
+.careers_contact_form {
+  width: 100%;
+  float: left;
+  display: block;
+  margin-left: 18px;
+}
+.contact_field_main {
+  width: 100%;
+  float: left;
+  display: block;
+}
+.contact_field {
+  width: 47%;
+  float: left;
+  display: block;
+  margin-right: 25px;
+}
+.contact_field1 {
+  width: 97%;
+  float: left;
+}
+.fileupload_cls {
+  outline: none;
+}
+input.wpcf7-form-control.wpcf7-file.fileupload_cls {
+  /* display: none; */
+  width: 71%;
+  height: 36px;
+  margin-bottom: 45px;
+}
+input.wpcf7-form-control.wpcf7-captchar {
+  width: 188px;
+  float: left;
+}
+.previewMain {margin: 1px auto !important;}
+.hoverMain {margin: 127px auto !important;}
+
+@media only screen and (max-width : 1024px){
+.email_new{ float: right; margin: 0 0px 0px 0px; display: inline; width: 100% !important; margin-top: -4px;}
+}
+
+@media only screen and (max-width : 1024px){
+.contact_new{float: left; display: inline; width: 100% !important; margin-top: 0px; margin-right: 10px;}
+}
+
+@media only screen and (max-width : 1024px){
+.name_new{ float: left; margin: 0 10px 0px 0px; display: inline; width: 100% !important;}
+}
+
+@media only screen and (max-width : 1024px){
+.address_new {float:right; display: inline; width: 100% !important;  margin-right: 0px;}}
+
+@media only screen and (max-width : 1024px){
+.captchanew {width: 100% !important; height: 38px; position: relative; float: left; margin-right: 12px;}}
+
+@media only screen and (max-width : 1024px){
+.fileupload_bro {width: 100% !important; float: right; position: relative; top: 27px !important}}
+
+@media only screen and (max-width : 1024px){
+.button_new4 {width: 100%; float: left; margin-top: 0em !important; text-align: center; margin-bottom:55px;  height: 37px;}}
+
+div#form_close {text-align: right; width: 30px; height: 30px; float: right; cursor: pointer;}
+div#form_close2 {text-align: right; width: 30px; height: 30px; float: right; cursor: pointer;}
+.columns.large-6.medium-12.col1_new {padding: 15px;}
+.columns.large-6.medium-12.col2_new {padding: 15px;}
+.financial_img_1_cls {text-align: center; position: relative;}
+.img_align_center {text-align: center; position: relative;}
+.path-to_value_img {text-align: center;  position: relative;}
+
+
+#service_sec1_new { width: 100%; height: auto; position: relative; margin-bottom: 5em;}
+#service_sec2_new { width: 100%; height: auto; position: relative; margin-bottom: 5em;}
+#service_sec3_new { width: 100%; height: auto; position: relative; margin-bottom: 5em;}
+#service_sec4_new { width: 100%; height: auto; position: relative; margin-bottom: 5em;}
+#service_sec5_new { width: 100%; height: auto; position: relative; margin-bottom: 5em;}
+
+
+div#fvfeedbackbutton0 span {
+  background: url("http://www.quantiphi.com/wp-content/plugins/wpfixedverticalfeedbackbutton/images/contact_small.png") no-repeat scroll 50% 50% #223d7e;
+  display: block;
+  height: 83 px;
+  padding: 5px;
+  position: fixed;
+  right: 0;
+  text-indent: -9999px;
+  top: 65%;
+  width: 33px !important;
+  line-height: 0;
+  height: 120px;
+  border-radius: 10px 0px 0px 10px;   opacity: 0.5;
+}
+input.wpcf7-form-control.wpcf7-text {
+  font-size: 14px;
+}
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.wpcf7-not-valid {
+  font-size: 14px; 
+}
+span.wpcf7-not-valid-tip {
+  font-size: 13px;
+  position: relative;
+  top: -16px;
+  width: 100%;
+  height: auto;
+}
+.car_img_top {
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-top: 35px;
+}
+.ser_cont_img {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.career_frst_cont {
+  width: 100%;
+  height: 190px;
+  border-bottom: 1px solid #ccc;
+}
+img.logo-img {
+  width: 300px;
+  height: 49px;
+}
+.car_pg_img1 {
+  width: 100%;
+  position: relative;
+  height: auto;
+  float: left;
+  top: 10px;
+}
+.partners_img1 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.health-care_tit_1 {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 4px;
+  font-size: 28px; margin-top: 1em;
+}
+.health-care_tit_1_new {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 4px;
+  font-size: 28px; margin-top: 1em; border-top: 1px solid #ccc;
+  padding-top: 1em;
+}
+.visit-link {
+  font-size: 18px;
+  text-align: center;
+  color: #333;
+  font-weight: bold;
+}
+.services_row2 {
+  position: relative;
+  top: -37px;
+  width: 100% !important;
+  height: auto;
+  float: left;
+}
+.services_row3 {
+  position: relative;
+  top: -37px;
+  width: 100% !important;
+  height: auto;
+  float: left;
+}
+.services_row4 {
+  position: relative;
+  top: -63px;
+  width: 100% !important;
+  height: auto;
+  float: left;
+}
+.services_row5 {
+  position: relative;
+  top: -37px;
+  width: 100% !important;
+  height: auto;
+  float: left;
+}
+
+.career-icon1 {
+  padding-left: 40px;
+  background-image: url("http://www.quantiphi.com/wp-content/uploads/2015/04/working_with_client.png");
+  background-repeat: no-repeat;
+  background-position: 2px 2px;   margin-bottom: 10px;
+}
+.career-icon2 {
+  padding-left: 40px;
+  background-image: url("http://www.quantiphi.com/wp-content/uploads/2015/04/developing_solution.png");
+  background-repeat: no-repeat;
+  background-position: 2px 2px;   margin-bottom: 10px;
+}
+.career-icon3 {
+  padding-left: 40px;
+  background-image: url("http://www.quantiphi.com/wp-content/uploads/2015/04/develop_sophisticated1.png");
+  background-repeat: no-repeat;
+  background-position: 2px 2px;   margin-bottom: 10px;
+}
+.career-icon4 {
+  padding-left: 40px;
+  background-image: url("http://www.quantiphi.com/wp-content/uploads/2015/04/building_deep.png");
+  background-repeat: no-repeat;
+  background-position: 2px 2px;   margin-bottom: 10px;
+}
+.career-icon5 {
+  padding-left: 40px;
+  background-image: url("http://www.quantiphi.com/wp-content/uploads/2015/04/working_closely1.png");
+  background-repeat: no-repeat;
+  background-position: 2px 2px;   margin-bottom: 10px;
+}
+
+.health_care_img_cls{text-align:center;}
+.financial_ser_txt1 {padding: 0px; margin-left: -16px;}
+.financial_img_new {position: relative; text-align: center; margin-bottom: 15px;}
+.financial_cat_par {font-size: 18px; color: #858386; text-align: center; line-height: 25px; position: relative; top: 20px;}
+.financial_cat_tit { font-size: 20px; color: #333333; font-weight: bold; text-align: center;}
+.top_new_cont { margin-top: 0em;}
+.txt_alg_center {text-align: center; padding-top:0px;}
+.services_img_tit {
+  font-size: 16px;
+  color: #414042;
+  font-weight: 900;
+  margin-bottom: 10px; text-align:center;
+}
+.services_img_sub_tit {
+  font-size: 16px;
+  color: #233e7f;
+  font-weight: 500;
+  font-style: italic; text-align:center;
+}
+.services_img_para {
+  font-size: 16px;
+  color: #777777;
+  font-weight: 400;
+  margin-top: 1em; margin-bottom: 2em;
+  line-height: 23px; text-align:left;
+}
+
+/* helper classes */
+.red { background-color: #f44; color:#fff;   text-align: center;}
+.yellow { background-color: #666666; color:#fff;   text-align: center;}
+.black { background-color: #243e81; color:#fff;   text-align: center;}
+.box-container { width: 100%; height: 210px; overflow: hidden; margin: 0 auto;}
+.box-outer:hover { margin-top: -120px; transition: margin .5s;}
+.box-inner { width: 100%; height: 210px;}
+.text { padding: 17px; text-align: center; }
+.arrow { padding-top: 120px;
+margin-left: 15px;
+width: 0; 
+height: 0; 
+border-left: 30px solid transparent;
+border-right: 30px solid transparent;
+  border-bottom: 30px solid #ff4; }
+
+header.site-header {
+  box-shadow: 0px 1px 39px #ccc;
+}
+
+.na_cls_cont {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+p.previewMain_text {
+  padding: 15px;
+}
+.path_value_cont{margin-top:6em;}
+
+
+
+
+
+
+
+
+
+.right_para2 {
+  top: -27px;
+}
+.big_data_page_tit {
+  color: #4c5151;
+  font-size: 24px;
+}
+.big_data_page_tit_new1 {
+  color: #4c5151;
+    font-size: 20px;
+  font-weight: 400; line-height:27px;
+}
+.big_data_page_tit_new1_2 {
+  color: #4c5151;
+    font-size: 20px;
+  font-weight: 400; line-height:27px; padding-top:15px;
+}
+.big_data_page_tit2 {color: #0a0c0c; font-size: 36px; font-weight:bold;  line-height:42px;}
+.big_data_page_tit3 {color: #0a0c0c; font-size: 27px; font-weight:bold;  line-height:42px; top: 35px; position: relative; padding-bottom: 30px;}
+.section2_img {
+  width: 100%;
+ height: auto;
+  position: relative;
+  top: 1em;
+  border-bottom: 0px solid #ccc;
+  padding-bottom: 19px; text-align:center;
+}
+.section2_img_new2 {
+  width: 100% !important;
+  height: auto;
+  position: relative;
+  top: 1em;
+  text-align:left;
+}
+.section2_img_new3 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 1em;
+  text-align:center;
+}
+.section2_img_new {
+  width: 100%;
+ height: auto;
+  position: relative;
+  top: -1em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 19px; text-align:center;
+}
+.section_1_left { margin: 0px;padding-left: 0px;top: -76px;}
+.new_section_1_left{ margin: 0px;padding-left: 0px;top: -45px;}
+.health_care_section1 {width: 100%; height: auto; position: relative; top: 0em; padding-bottom: 1em; border-bottom:0px solid #ccc;}
+.health_care_section2 {width: 100%; height: auto; position: relative; top: 0em; padding-bottom: 1em; border-bottom:0px solid #ccc;}
+.health_care_section3 {width: 100%; height: auto; position: relative; top: 0em; padding-bottom: 1em; border-bottom:0px solid #ccc;}
+.health_care_section4 {width: 100%; height: auto; position: relative; top: 0em; padding-bottom: 1em; border-bottom:1px solid #ccc;   margin-bottom: 2em !important;}
+.health_care_section5 {width: 100%; height: auto; position: relative; top: 0em; padding-bottom: 1em;}
+.health_care_section6 {width: 100%; height: auto; position: relative; top: 0em; padding-bottom: 1em;}
+
+.health_care_section1_new {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 0em; padding-bottom: 1em;
+}
+.health_care_section1_new24 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 0em; padding-bottom: 1em;
+background-image: url("http://www.quantiphi.com/wp-content/uploads/2015/04/healthcare_bg_new.png"); background-repeat: no-repeat; background-position: 2px -72px;
+}
+.section1_par {
+  font-size: 16px;
+  color: #666666;
+  font-weight: 400;
+  margin-top: 4em; padding:5px;
+}
+.section1_par_new_n {
+  font-size: 16px;
+  color: #666666;
+  font-weight: 400;
+  margin-top: -2em; padding:5px;
+}
+.section1_par_par {
+  font-size: 16px;
+  color: #666666;
+  font-weight: 400;
+  margin-top: 4em; padding:5px;   text-align: center;
+}
+.section1_par_new {
+  font-size: 16px;
+  color: #666666;
+  font-weight: 400;
+  margin-top: 2em; padding:5px; text-align:center;
+}
+.section1_par2 {
+  font-size: 16px;
+  color: #333333;
+  font-weight: 500;
+  margin-top: 3em; padding:5px;
+}
+.section1_par3 {
+  font-size: 18px;
+  color: #2f3636;
+  font-weight: 500;
+  margin-top: 3em; padding:5px;
+}
+.section1_par3_new {
+  font-size: 16px;
+  color: #2f3636;
+  font-weight: 500;
+  margin-top: 8em; padding:5px;
+}
+.section1_par3_new2 {
+  font-size: 16px;
+  color: #2f3636;
+  font-weight: 500;
+  margin-top: 11em; padding:5px;
+}
+.section_2_right {
+  left: 0em;
+}
+.section_2_right2 {
+    left: -2em;
+  top: -50px;
+}
+.section2_para {
+  font-size: 16px;
+  color: #666666;
+  font-weight: 400; padding:5px;
+}
+.health_care_section1 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  border-bottom: 0px solid #ccc;
+}
+.health_care_section1_new {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.health_care_section1_new2 {
+  width: 100%;
+  height: auto;
+  position: relative; top: -3em;
+}
+.section1_img1_left {
+  margin-top: 0em; text-align:center;
+}
+.section3_img1_left {
+  margin-top: 3em; text-align:center;
+}
+.section3_img1_left_new {
+  margin-top: 6em;
+}
+
+
+
+.quantra_benefits_row1 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  bottom: 2em;
+}
+.realtime_analytics_paragraph {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+.realtime_analytics_icon {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  background-image: url("http://www.quantiphi.com/wp-content/uploads/2015/04/realtime_analytics.png");
+  background-repeat: no-repeat; height: 40px; text-align: left;  padding-top: 5px;  padding-right: 7px;   padding-left: 58px;
+}
+.on_the_go_icon {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  background-image: url("http://www.quantiphi.com/wp-content/uploads/2015/04/on_the_go.png");
+  background-repeat: no-repeat;
+  height: 40px;
+  text-align: left;
+  padding-top: 5px;
+  padding-right: 7px; padding-left:50px;
+}
+.predictive_analytics_icon {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  background-image: url("http://www.quantiphi.com/wp-content/uploads/2015/04/predictive_analytics.png");
+  background-repeat: no-repeat;
+  height: 40px;
+  text-align: right;
+  padding-top: 10px;
+  padding-right: 7px;
+}
+.dedicated_service_icon {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  background-image: url("http://www.quantiphi.com/wp-content/uploads/2015/04/dedicated_service.png");
+  background-repeat: no-repeat;
+  height: 40px;
+  text-align: left;
+  padding-top: 10px;
+  padding-right: 7px;   padding-left: 55px;
+}
+.multi_source_data_ingest_icon {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  background-image: url("http://www.quantiphi.com/wp-content/uploads/2015/04/multi_source.png");
+  background-repeat: no-repeat;
+  height: 40px;
+  text-align: left;
+  padding-top: 0px;
+  padding-right: 7px;
+  padding-left: 50px;
+}
+.cutting_edgedata_analytics_icon {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  background-image: url("http://www.quantiphi.com/wp-content/uploads/2015/04/cutting_edge.png");
+  background-repeat: no-repeat;
+  height: 40px;
+  text-align: left;
+  padding-top: 0px;
+  padding-right: 7px;
+  padding-left: 60px;
+}
+.customisation {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  background-image: url("http://www.quantiphi.com/wp-content/uploads/2015/04/customisation.png");
+  background-repeat: no-repeat;
+  height: 40px;
+  text-align: left;
+  padding-top: 8px;
+  padding-right: 7px;
+  padding-left: 55px;
+}
+.architect_container_cls {
+  width: 10%;
+  height: auto;
+  position: relative;
+  border-bottom: 1px solid #ccc;
+}
+.container1_quanra {margin-bottom: 3em;}
+.container2_quanra {margin-bottom: 3em;}
+.container3_quanra {margin-bottom: 3em;}
+.key_indicator_list1 {text-align: left; padding-left: 4em; padding-top: 2em; font-weight:bold;}
+.key_indicator_list2 {text-align: left; padding-left: 5em; padding-top: 2em; font-weight:bold;}
+.key_indicator_list3 {text-align: left; padding-left: 5em; padding-top: 2em; font-weight:bold;}
+ul.key_indicator_list li { font-weight: bold;}
+.key_ind_para {
+  font-size: 16px;
+  color: #333333;
+  font-weight: 500;
+  text-align: center;
+}
+.key_indicators_cls1 {
+  text-align: center;
+  color: #333333;
+  font-weight: bold;
+  font-size: 30px;
+}
+.partner_trends_cls1 {
+  text-align: center;
+  color: #333333;
+  font-weight: bold;
+  font-size: 30px;
+}
+.inventory_watch_cls1 {
+  text-align: center;
+  color: #333333;
+  font-weight: bold;
+  font-size: 30px;
+}
+.key_ind_img {
+  width: 100%;
+  margin-top: 1em; margin-bottom: 1em;
+  text-align: center;
+}
+
+.travel_caption_cls{
+  color: #333333;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 28px;
+  position: relative; left:1em;
+}
+.travel_caption_cls_new{
+  color: #333333;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 35px;
+  position: relative; left:0em; margin-top:-50px;
+}
+.travel_caption_cls2{
+  color: #333333;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 35px;
+  position: relative; left:0em;
+}
+.grouw_business_icons1 {
+  font-size: 18px;
+  color: #333333;
+  width: 100%;
+  line-height: 36px;
+  background-image: url("http://www.quantiphi.com/wp-content/uploads/2015/04/grouw_your_business1.png");
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  padding: 9px 0px 0px 55px;
+  margin-top: 16px;
+  font-weight: 500;
+}
+.grouw_business_icons2 {
+  font-size: 18px;
+  color: #333333;
+  width: 100%;
+  line-height: 36px;
+  background-image: url("http://www.quantiphi.com/wp-content/uploads/2015/04/grouw_your_business2.png");
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  padding: 9px 0px 0px 55px;
+  margin-top: 16px;
+  font-weight: 500;
+}
+.grouw_business_icons3 {
+  font-size: 18px;
+  color: #333333;
+  width: 100%;
+  line-height: 36px;
+  background-image: url("http://www.quantiphi.com/wp-content/uploads/2015/04/grouw_your_business3.png");
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  padding: 9px 0px 0px 55px;
+  margin-top: 16px;
+  font-weight: 500;
+}
+.grouw_business_icons4 {
+  font-size: 18px;
+  color: #333333;
+  width: 100%;
+  line-height: 36px;
+  background-image: url("http://www.quantiphi.com/wp-content/uploads/2015/04/grouw_your_business4.png");
+  background-position: 0px -1px;
+  background-repeat: no-repeat;
+  padding: 9px 0px 0px 55px;
+  margin-top: 16px;
+  font-weight: 500;
+}
+.grow_business_para {
+  font-size: 16px;
+  color: #777777;
+  position: relative;
+  font-weight: 500;
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 3em;
+  padding: 5% 0% 4% 3%;
+}
+.grow_business_para2 {
+  font-size: 16px;
+  color: #777777;
+  position: relative;
+  font-weight: 500;
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 3em;
+  padding: 2% 0% 4% 3%;
+}
+.grow-business_section {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+@media only screen and (max-width : 1024px){
+.your-name {margin: 0px 8px 0px 0px; width:100%;}
+}
+
+@media only screen and (max-width : 1024px){
+.your-email {margin: 0px 8px 0px 0px; width:100%;}
+}
+
+@media only screen and (max-width : 1024px){
+.your-phone {margin: 0px 8px 0px 0px; width:100%;}
+}
+
+@media only screen and (max-width : 1024px){
+.your_name2 {margin: 0px 8px 0px 0px; width:100%;}
+}
+
+@media only screen and (max-width : 1024px){
+.your-phone2{margin: 0px 0px 0px 0px; width:100%;}
+}
+
+.need-assessmenT_txt {
+  font-size: 21px;
+  text-align: center;
+  line-height: 43px;
+}
+.partner_title {
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+  font-size: 28px;
+  margin-top: 7em;
+}
+
+h6.footer-widget-title {
+  color: #fff;
+  text-align: left;
+  font-size: 18px;
+}
+.path_to_value_par {
+  margin: 10px 0px 10px 0px;
+  line-height: 22px;
+  color: #333;
+  text-align: left;
+  font-weight: 400;
+}
+.path_to_value_tit {
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: bold;
+  text-align: left;
+  color: #333;  margin-bottom: 1em;
+}
+.founder_caption1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333333;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  margin-top: 2em;
+}
+.founder_des_cls {
+  font-size: 16px;
+  color: #777777;
+  width: 100%;
+  height: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.col1_new1 {
+  padding: 0px 0px 0px 10px;
+}
+.col2_new2 {
+  padding: 0px 0px 0px 10px;
+}
+.col3_new3 {
+  padding: 0px 0px 0px 10px;
+}
+.founder_name_cls {
+  font-size: 20px;
+  color: #333333;
+  font-weight: bold;
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-top: 50px;
+}
+.founder_img_cls {
+  float: left;
+  text-align: left;
+  width: 171px;
+  height: 175px;
+  margin-right: 7px;
+}
+ul#menu-about-new {
+  list-style: none;
+  text-align: left;
+  margin-left: 0px; color:#888888; line-height:27px; font-size: 14px; font-weight: 500;
+}
+ul#menu-about-new :hover{
+  list-style: none;
+  text-align: left;
+  margin-left: 0px; color:#fff; line-height:27px; font-size: 14px; font-weight: 500;
+}
+ul#menu-services-new {
+  list-style: none;
+  text-align: left;
+  margin-left: 0px; color:#888888; line-height:27px; font-size: 14px; font-weight: 500;
+}
+ul#menu-services-new :hover {
+  list-style: none;
+  text-align: left;
+  margin-left: 0px; color:#fff; line-height:27px; font-size: 14px; font-weight: 500;
+}
+ul#menu-get-started {
+  list-style: none;
+  text-align: left;
+  margin-left: 0px; color:#888888; line-height:27px; font-size: 14px; font-weight: 500;
+}
+ul#menu-get-started :hover {
+  list-style: none;
+  text-align: left;
+  margin-left: 0px; color:#fff; line-height:27px; font-size: 14px; font-weight: 500;
+} 
+ul#menu-security_new {
+  list-style: none;
+  text-align: left;
+  margin-left: 0px; color:#888888; line-height:27px; font-size: 14px; font-weight: 500;
+}
+ul#menu-security_new :hover {
+  list-style: none;
+  text-align: left;
+  margin-left: 0px; color:#fff; line-height:27px; font-size: 14px; font-weight: 500;
+}
+.title2 {
+  font-size: 22px;
+  text-transform: initial;
+  letter-spacing: 1px; padding-bottom:25px;
+}
+.lightbox ul.icons {
+  display: none;
+}
+.opening_cont_container {
+  width: 100%;
+  height: auto;
+  position: relative;
+  top:0px; padding-bottom: 3em;
+}
+.columns.large-6.medium-12.context_symbol_txt2_new28 {
+  top: 2em; padding;5px;
+}
+.columns.large-6.medium-12.context_symbol_txt1_new1_img_up8 {
+  top: 1em;
+}
+.header-1_cls {
+  background-color: #213665;
+  position: relative;
+}
+.header-1_cls_bottom {
+  background-color: #213665;
+  position: relative;
+}
+.header-2_cls {
+  background-color: #383552;
+  position: relative;
+}
+.header-3_cls {
+  background-color: #1dc7ac;
+  position: relative;
+}
+.header_cls_logo {padding: 0px 5px 0px 0px; text-align:center;}
+.header_cls_logo3 {padding: 0px 0px 0px 0px; text-align:center;}
+.header_cls_tit {
+    font-size: 17px;
+  padding: 13px 0px 0px 0px;
+  text-align: center; color:#fff
+}
+.header_cls_tit_2nd {font-size:17px;  padding: 10px 0px 0px 0px; text-align: center; color:#fff}
+.header_cls_tit3 {
+  color: #fff;
+  padding-top: 16px;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: normal; padding-left: 10px; padding-right: 0px;
+}
+.header_cls_tit3_new {
+  color: #fff;
+  padding-top: 16px;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: normal; padding-left: 10px; 
+}
+.header_cls_tit2 {
+  color: #fff;
+  padding-top: 24px;
+  font-size: 26px;
+  line-height: 25px;
+  font-weight: normal;
+  text-align: center; text-transform: uppercase;
+  font-weight: 300;
+}
+.row.content_bg {
+  height: auto;
+  position: relative;
+  padding: 2%;
+  background-image: url("http://www.quantiphi.com/wp-content/uploads/2015/04/bg1.png");
+background-repeat: no-repeat;
+  background-position: 0px 0px;
+}
+.context_tit_new1 {color: #383554; font-size: 24px; font-weight: bold; margin-top: 1em;}
+.context_tit {
+  color: #383554;
+  font-size: 24px;
+  font-weight: bold; margin-top:1em;
+}
+.context_tit2 {
+  color: #383554;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 2em;
+  width: 100%;
+  border-top: 1px solid #ccc;
+  padding-top: 2em;
+}
+.context_symbol_txt1 {
+  color: #56547c;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 40px;
+  padding: 45px 5px 0px 13px;
+}
+.context_symbol_txt1_new9 {
+  color: #56547c;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 40px;
+  padding: 65px 5px 0px 13px;
+}
+.context_symbol_txt1_new9_9 {
+  color: #56547c;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 40px;
+  padding: 0px 5px 0px 13px;
+}
+.context_symbol_txt1_new9_9_new {
+  color: #56547c;
+  font-size: 15px;
+  line-height: 21px;
+  padding: 31px 5px 0px 13px; font-weight:400;
+}
+.context_symbol_txt1_new1 {
+  color: #56547c;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 40px;
+  padding: 35px 5px 0px 0px;
+}
+.context_symbol_txt1_new1_img_up {
+  color: #56547c;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 40px;
+  padding: 35px 5px 0px 0px; 
+}
+.context_symbol_txt1_new1_img_up8 {
+  color: #56547c;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 40px;
+  padding: 35px 5px 0px 0px; 
+}
+.context_symbol_txt5 {
+  color: #56547c;
+  font-size: 23px;
+  line-height: 25px;
+  padding: 55px 5px 0px 13px;
+  font-family: "Open Sans"; padding-left:0px; padding-right:0px; 
+}
+.context_symbol_txt2_new1 {
+  font-size: 15px;
+  color: #54527a;
+  padding: 0px;
+  line-height: 22px; padding-top:35px; font-weight:400;
+}
+.context_symbol_txt2 {
+  font-size: 15px;
+  color: #54527a;
+  padding: 0px;
+  line-height: 22px; padding-top:65px; font-weight:400;
+}
+.context_symbol_txt2_case3 {
+  font-size: 14px;
+  color: #54527a;
+  padding: 0px;
+  line-height: 22px; padding-top:40px; font-weight: bold;
+}
+.context_symbol_txt2_new9 {
+  font-size: 15px;
+  color: #54527a;
+  padding: 0px;
+  line-height: 22px; padding-top:70px;   padding-left: 15px; font-weight:400;
+}
+.context_symbol_txt2_3rd_case {
+  font-size: 14px;
+  color: #54527a;
+  padding: 0px;
+  line-height: 22px;   padding-top: 40px; font-weight:bold;
+}
+.context_symbol_txt2_4th_case {
+  font-size: 19px;
+  color: #54527a;
+  padding: 0px;
+  line-height: 22px;   padding-top: 53px;  font-weight: bold;
+}
+.context_symbol_txt2_new_8 {
+  font-size: 15px;
+  color: #54527a;
+  padding: 0px;
+  line-height: 22px; padding-top:65px; font-weight:400;
+}
+.context_symbol_txt2_new_82 {
+  font-size: 15px;
+  color: #54527a;
+  padding: 0px;
+  line-height: 22px; padding-top:65px; font-weight:400;
+}
+.context_symbol_txt2_2nd {
+  font-size: 30px;
+  color: #54527a;
+  padding: 0px;
+  line-height: 25px;
+  padding-top: 35px;
+  text-align: center;
+}
+.context_symbol_txt2_new2 {
+  font-size: 15px;
+  color: #54527a;
+  padding: 0px;
+  line-height: 22px; padding-top:35px; font-weight:400;
+}
+.context_symbol_txt2_new28 {
+  font-size: 15px;
+  color: #54527a;
+  padding: 0px;
+  line-height: 22px; padding-top:35px; font-weight: 400;
+}
+.context_symbol_txt6 {
+  font-size: 15px;
+  color: #54527a;
+  padding: 0px;
+  line-height: 22px; padding-top:35px; padding-left: 10px;
+}
+.context_symbol_txt3 {
+  color: #56547c;
+  font-weight: bold;
+  font-size: 49px;
+  padding: 0px;
+  line-height: 40px; padding-top:40px;   text-align: right;
+}
+.context_symbol_txt7 {
+    color: #56547c;
+  font-size: 25px;
+  padding: 0px;
+  line-height: 25px;
+  padding-top: 55px;
+  font-family: "Open Sans";
+}
+.context_symbol_txt4 {
+  color: #54527a;
+  font-size: 15px;
+  padding: 0px;  padding-top:43px; font-weight:normal;   padding-left: 12px;
+}
+.context_symbol_txt8 {
+  color: #54527a;
+  font-size: 44px;
+  padding: 0px;
+  padding-top: 65px;
+  background-image: url("http://www.quantiphi.com/wp-content/uploads/2015/04/spare_part_icon.png");
+  background-repeat: no-repeat;
+  background-position: 0px 40px;
+  height: 116px;
+  text-align: left; font-weight:bold; padding-left:2em;
+}
+.context_symbol_img1 {padding: 0px;}
+.context_symbol_img2 {padding: 0px; float: right; text-align: right;}
+.context3_container {
+  padding-bottom: 2em;
+  border-bottom: 1px solid #ccc;
+}
+.inters_cls {
+  border-top: 1px solid #ccc;
+  color: #222838;
+  font-size: 18px;
+  font-weight: 400; padding-top: 15px;
+}
+.int_thmb_cls {
+  padding-left: 0px;
+  padding-bottom: 2em;
+  color: #65666a;
+  text-align: center;
+}
+
+
+
+.submit-btn_new {
+  width: 200px;
+  height: 35px;
+  background-color: #25b484 !important;
+  position: relative;
+  border-radius: 7px;
+  padding-top: 5px;
+  text-align: center;   cursor: pointer;
+  color: #fff;
+}
+.submit-btn_new a {
+  color: #fff;
+  text-align: center;
+  background: none;
+  text-indent: -694px;
+  border: none;
+  border-left: 1px solid #25b484;
+}
+.current_opening_new {
+  position: relative;
+  padding-top: 1em;
+  padding-bottom: 4em;
+}
+div#toggle-hadoop-developer-2-years-above-4551 {background-color: #f9f8f8;}
+input.name_new {
+  width: 50%;
+  position: relative;
+  float: left;
+  color: #000;
+  text-align: left;
+  font-size: 17px;
+}
+
+.apply_on {
+  color: #333;
+}
+.current_openings_cls {
+  color: #333333;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 25px;   margin-bottom: 1em;
+}
+.accordian_tit { background:#f1f0f0; margin-bottom: -18px;}
+
+.accordian_tit a.no-border {color:#848383;}
+.accordian_tit a.no-border span {color:#323232;}
+
+.button_new4 {
+  width: 97%;
+  float: left;
+  margin-top: 0em;
+  text-align: center; margin-bottom:55px;  height: 37px;}
+
+
+.fileupload_cls::before {
+  content: '';
+  display: inline-block;
+  background: url('http://www.quantiphi.com/wp-content/uploads/2015/03/browse_img.png') no-repeat;
+  border: 0px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 0px 0px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+  height: 36px;
+  width: 333px;
+  background-position: left top;
+  outline:none;
+}
+
+.fileupload_cls:hover::before {
+  border-color: black;
+}
+.fileupload_cls:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+
+
+
+
+a.submit-btn_new:after {
+  content: none !important;
+}
+.form_img {
+  width: 100%;
+  text-align: center; margin-bottom: 1em;
+}
+.file_upload2 {
+  width: 51%;
+  height: 41px;
+  float: right;
+  top: -47px;
+  right: 1px;
+  background-image: url("http://www.quantiphi.com/wp-content/uploads/2015/03/browse_img.png");
+  background-repeat: no-repeat;
+  background-position: 2px 2px;
+}
+.form_footer_txt {
+  font-size: 14px;
+  color: #0f121c;
+  text-align: center; width:100%; float:left; padding-bottom: 10px;
+}
+
+
+.form_caption1 {
+  font-size: 18px;
+  color: #192647;
+  font-weight: bold;
+  text-align: center;   margin-bottom: 1em;
+}
+.form_para1 {
+  font-size: 16px;
+  color: #192647;
+  text-align: center;
+  font-weight: 500;   margin-bottom: 1em;
+}
+.career_main_tit {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;   margin-top:3em; margin-bottom: 2em;
+}
+.career_para {
+  color: #888;
+  text-align: left;
+  font-size: 16px;
+  line-height: 25px;     padding: 2% 2% 5% 2%;
+  border-bottom: 1px solid #ccc; float:left; width:100%; list-style: none;
+}
+.career_para_new_car {
+  color: #888;
+  text-align: left;
+  font-size: 16px;
+  line-height: 25px;     padding: 2% 2% 5% 2%;
+ float:left; width:100%; list-style: none;
+}
+.security_para_new_car {
+  color: #333; text-align: left; font-size: 16px; line-height: 25px; padding: 2% 2% 5% 2%;
+ float:left; width:100%; list-style: none; font-weight: 400;}
+.career_para_car{
+  color: #888;
+  text-align: left;
+  font-size: 16px;
+  line-height: 25px;     padding: 2% 2% 1% 2%;
+  float:left; width:100%; list-style: none;
+}
+.career_para2 {
+  color: #888;
+  text-align: left;
+  font-size: 16px;
+  line-height: 25px;     padding: 2% 2% 0% 0%;
+  float:left; width:100%; list-style: none;
+}
+.career_para2_car2 {
+  color: #888;
+  text-align: left;
+  font-size: 16px;
+  line-height: 25px;     padding: 2% 2% 5% 0%;
+  float:left; width:100%; list-style: none;
+}
+.form_footer_txt {
+  font-size: 14px;
+  color: #0f121c;
+  text-align: center;
+}
+.quantiphi2 {
+  background-color: #ccc;
+  position: relative;
+  float: left;
+  color: #fff;
+  font-size: 12px;
+}
+.current_opening-tit1 {color: #25b484; font-size: 18px; font-weight: 500;  margin-bottom: 1em;
+}
+.current_opening-tit2 {color: #747373; font-size: 16px; font-weight: bold;  margin-bottom: 1em;
+}
+.current_opening-tit3 {color: #747373; font-size: 15px; font-weight: 500;  margin-bottom: 1em;
+}
+.current_opening-tit4 {color: #747373; font-size: 16px; font-weight: bold;  margin-bottom: 1em;
+}
+.current_opening-tit5 {color: #747373; font-size: 15px; font-weight: 500;  margin-bottom: 1em;
+}
+.about_bg2{width:100%; position:relative; float:left; text-align:center; color:#333; font-size:55px; top:10px; line-height:50px; font-weight: 400;}
+.about_bg3{width:100%; position:relative; float:left; text-align:center; color:#313131; font-size:28px; top:1em; font-weight: 400; line-height: 30px;}
+.about_bg4{width:100%; position:relative; float:left; text-align:center; color:#313131; font-size:22px; top:2em; line-height:35px; font-weight: 400;}.
+.talent-pool_txt{color:#000; font-size:28px; text-align:center; font-style:italic; width:345px;}
+input.wpcf7-form-control.wpcf7-text.name {font-size: 14px;}
+.talent-pool_txt{position:relative; text-align:center; margin-bottom:1em; color:#333; font-size:24px; font-style:italic; font-weight:bold;}
+.talent-pool_graph{height:275px; position:relative; text-align:center; margin-bottom: 4em;}
+.talent-pool_graph2{height:275px; position:relative; text-align:center; margin-bottom: 4em;}
+.about_para{height:auto; position:relative; font-size:16px; text-align;left; color:#333333; font-weight:400; line-height:25px; padding-bottom:1em;}
+.about_para2{height:auto; position:relative; font-size:40px; text-align:left; color:#333333; font-weight:bold; line-height:40px;   margin-bottom: 1em;}
+.about_para3{height:auto; position:relative; font-size:21px; text-align:left; color:#555555; font-weight:400; line-height:36px;   margin-bottom: 2em;}
+.about_para4{height:auto; position:relative; font-size:17px; text-align:left; color:#81747c; font-weight:400; line-height:25px;   margin-bottom: 3em;}
+.about_para5{height:auto; position:relative; font-size:80px; text-align:left; color:#c8c8c8; font-weight:bold; line-height:25px; margin-bottom: 0px;}
+.about_para6{height:auto; position:relative; font-size:16px; text-align:left; color:#818181; font-weight:400; line-height:25px;}
+.about_para7{height:auto; position:relative; font-size:25px; text-align;left; color:#555555; font-weight:400; line-height:35px;}
+.contact-pg_tit{width:100%; position:relative; float:left; text-align:center;  color:#ffffff; font-size:39px; top:40px; line-height:50px; font-weight:500;}
+.contact-pg_tit2{width:100%; position:relative; float:left; text-align:center; color:#ffffff; font-size:18px; top:60px; line-height:35px; font-weight:500;}
+.contact_lt_bx1{height:auto; background-color:#fff; position:relative; float:left; text-align:left; padding:0xp; top:-25px;}
+.bx1_cls{height:101px; background-color:#fff; position:relative; background-image:url("http://www.quantiphi.com/wp-content/themes/morpheus/img/india.jpg"); background-repeat:no-repeat; padding-left:0px; margin-bottom:0px; background-position:10px 6px; margin-top:10px;}
+.bx2_cls{height:101px; background-color:#fff; position:relative; background-image:url("http://www.quantiphi.com/wp-content/themes/morpheus/img/boston.jpg"); background-repeat:no-repeat; padding-left:0px; margin-bottom:0px; background-position:10px 6px;}
+.bx3_cls{height:80px; background-color:#fff; position:relative; padding-left:0px; margin-bottom:0px; background-position:10px 37px;}
+.ind1{font-size:16px; color:#101010; text-align:left; float:left; position:relative; font-weight:bold; padding-left:39px; height:30px;   text-transform: capitalize; letter-spacing:normal; width: 100%;}
+.indpara{font-size:16px; color:#444444; text-align:left; float:left; position:relative; margin-top:-7px; padding-left:39px; font-weight:bold; font:small-caption; text-transform:capitalize; letter-spacing:normal; font-family: "Raleway" !important;}
+.indpara2{font-size: 18px; color: #101010; text-align: left; float: left; position: relative; margin-top: -7px; padding-left: 0px; font: small-caption; text-transform: lowercase; letter-spacing: normal; margin-left: 39px; font-family: "Raleway" !important;}
+.contact-form-seven {position: relative; z-index: 999; height: 383px;}
+
+.your-name {float: left; margin: 0 8px 0px 0px; display: inline; width:32%;}
+.your-email{float: left; margin: 0 10px 0px 0px; display: inline; width:32%;}
+.your-phone{ float: left; margin: 0 0px 0px 0px; display: inline; width:33%;}
+
+@media only screen and (max-width : 1024px){
+.your-email, .your-phone, .your-name {
+  margin: 0 8px 0px 0px;
+  width:100%;
+}
+}
+
+@media only screen and (max-width : 720px){
+.your-phone {
+  margin: 0 8px 0px 0px;
+  width:100%;
+}
+}
+
+@media only screen and (max-width : 720px){
+.your-name {
+  margin: 0 8px 0px 0px;
+  width:100%;
+}
+}
+
+@media only screen and (max-width : 1024px){
+.your-phone{
+  margin: 0 8px 0px 0px;
+  width:100%;
+}
+}
+
+@media only screen and (max-width : 1024px){
+.your-name{
+  margin: 0 8px 0px 0px;
+  width:100%;
+}
+}
+.name_new{
+  float: left;
+  margin: 0 10px 0px 0px;
+  display: inline;
+  width: 50%;
+}
+
+
+
+
+
+.txt1 {
+  margin:0px;
+}
+
+
+.your-phone2{margin: 0px 0px 0px 0px; width:34%;}
+.txt1 p {
+  text-align: center;
+  margin: 0;
+  color: #000;
+}
+
+.wpcf7-form .wpcf7-submit {
+  width: 100%; float:left;
+  background: #808185;
+  color: #fff;
+  font-weight: normal;
+  font-size: 15px; border:none; margin-right:5px; margin-bottom:2em;
+}
+.wpcf7-form .wpcf7-textarea {
+  background: #eee; float:left; border:1px solid #e6e4e5; padding:15px 0px 0px 15px; color:#989697; font-size:14px;}
+.wpcf7-form input.wpcf7-text, .wpcf7-form input.wpcf7-number, .wpcf7-form input.wpcf7-date, .wpcf7-form input.wpcf7-quiz {
+  background: #eee;
+height: 41px; float:left; border:1px solid #e6e4e5; padding-left:15px; color:#989697;
+}
+.wpcf7-response-output.wpcf7-display-none.wpcf7-validation-errors { width: 100%; float: right; margin-top:0em; text-align:center;}
+.wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok { width: 100%;
+  float: right; margin-top: 0em; text-align:center;}
+.columns.large-6.medium-12 {
+  margin: auto 0;
+  padding: 0px;
+  top: -100px;
+}
+.partners_col1 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background-color: #fff;
+  display: inline-block;
+  margin-right: 1em;
+  float: left; font-weight:400;
+  margin-bottom: 45px; font-size: 16px; color: #888; 
+}
+.partners_col2 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background-color: #fff;
+  display: inline-block; font-weight:400;
+  margin-right: 1em; margin-bottom: 15px;
+  font-size: 16px;
+  color: #888;
+}
+.partners_col3 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background-color: #fff;
+  display: inline-block; font-weight:400;
+  margin-right: 1em; 
+  font-size: 16px;
+  color: #888;
+}
+.team_col1 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background-color: #fff;
+  display: inline-block;
+  margin-right: 0em;
+  float: left; font-weight:400;
+  margin-bottom: 45px; font-size: 16px; color: #888; 
+}
+.team_col2 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background-color: #fff;
+  display: inline-block; font-weight:400;
+  margin-right: 0em; margin-bottom: 15px;
+  font-size: 16px;
+  color: #888; top:-20px;
+}
+.team_col3 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background-color: #fff;
+  display: inline-block; font-weight:400;
+  margin-right: 0em; 
+  font-size: 16px;
+  color: #888; top:-20px;
+}
+ @media only screen and (max-width : 1024px){
+.team_col1 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background-color: #fff;
+  display: inline-block;
+  margin-right: 0em;
+  float: left; font-weight:400;
+  margin-bottom: 45px; font-size: 16px; color: #888;}
+}
+ @media only screen and (max-width : 1024px){
+.team_col2 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background-color: #fff;
+  display: inline-block; font-weight:400;
+  margin-right: 0em; margin-bottom: 15px;
+  font-size: 16px;
+  color: #888;}
+}
+ @media only screen and (max-width : 1024px){
+.team_col3 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background-color: #fff;
+  display: inline-block; font-weight:400;
+  margin-right: 0em; 
+  font-size: 16px;
+  color: #888;}
+}
+.row.partner_content_row {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  position: relative;
+}
+.row.team_content_row {
+  width: 1151px;
+  height: auto;
+  background-color: #fff;
+  position: relative;
+}
+.col2_new {
+  top: -21px;
+  margin-left: 0em; margin-right: 0em;
+}
+.col3_new {
+  margin-top: -14px;
+}
+#nav_menu-2, #nav_menu-4 {
+  width: 50%;
+  float: left;
+}
+span.text {
+  text-align: center;
+  width: 100%;
+  display: block; line-height:30px;
+}
+.columns.large-6.medium-12 {
+  top: 0px;
+}
+h3.subtitle-text {
+  display: none;
+}
+</style>
+<link rel='stylesheet' id='parallax-css'  href='http://www.quantiphi.com/wp-content/themes/morpheus/css/style_new.css' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox-css'  href='http://www.quantiphi.com/wp-content/plugins/easy-fancybox/fancybox/jquery.fancybox-1.3.7.min.css?ver=1.5.7' type='text/css' media='screen' />
+<link rel='stylesheet' id='otw-shortcode-general_foundicons-css'  href='http://www.quantiphi.com/wp-content/plugins/toggles-shortcode-and-widget//include/otw_components/otw_shortcode/css/general_foundicons.css?ver=4.1.8' type='text/css' media='all' />
+<link rel='stylesheet' id='otw-shortcode-social_foundicons-css'  href='http://www.quantiphi.com/wp-content/plugins/toggles-shortcode-and-widget//include/otw_components/otw_shortcode/css/social_foundicons.css?ver=4.1.8' type='text/css' media='all' />
+<link rel='stylesheet' id='otw-shortcode-css'  href='http://www.quantiphi.com/wp-content/plugins/toggles-shortcode-and-widget//include/otw_components/otw_shortcode/css/otw_shortcode.css?ver=4.1.8' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.quantiphi.com/wp-content/plugins/LayerSlider/static/js/greensock.js?ver=1.11.8'></script>
+<script type='text/javascript' src='http://www.quantiphi.com/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
+<script type='text/javascript' src='http://www.quantiphi.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.quantiphi.com/wp-content/plugins/LayerSlider/static/js/layerslider.kreaturamedia.jquery.js?ver=5.3.1'></script>
+<script type='text/javascript' src='http://www.quantiphi.com/wp-content/plugins/LayerSlider/static/js/layerslider.transitions.js?ver=5.3.1'></script>
+<script type='text/javascript' src='http://www.quantiphi.com/wp-content/plugins/atomic-penguins-mind-blowing-hover-effects/js/mind_blown.js?ver=1'></script>
+<script type='text/javascript' src='http://www.quantiphi.com/wp-content/plugins/responsive-menu/public/js/touch.js?ver=4.1.8'></script>
+<script type='text/javascript' src='http://www.quantiphi.com/wp-content/themes/morpheus/js/vendor/custom.modernizr.js'></script>
+<script type='text/javascript' src='http://www.quantiphi.com/wp-content/themes/morpheus/js/foundation.min.js'></script>
+<script type='text/javascript' src='http://www.quantiphi.com/wp-content/plugins/toggles-shortcode-and-widget//include/otw_components/otw_shortcode/js/otw_shortcode_core.js?ver=4.1.8'></script>
+<script type='text/javascript' src='http://www.quantiphi.com/wp-content/plugins/toggles-shortcode-and-widget//include/otw_components/otw_shortcode/js/otw_shortcode.js?ver=4.1.8'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.quantiphi.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.quantiphi.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.1.8" />
+<link rel='shortlink' href='http://www.quantiphi.com/' />
+
+<script type='text/javascript'>
+	
+	
+(function() {
+    var wa = document.createElement('script'); wa.type = 'text/javascript'; wa.async = true;
+    wa.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://w1') + '.luckyorange.com/w.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wa, s);
+  })();
+</script><style>#responsive-menu .appendLink, #responsive-menu .responsive-menu li a, #responsive-menu #responsive-menu-title a,#responsive-menu .responsive-menu, #responsive-menu div, #responsive-menu .responsive-menu li, #responsive-menu{box-sizing: content-box !important;-moz-box-sizing: content-box !important;-webkit-box-sizing: content-box !important;-o-box-sizing: content-box !important}.RMPushOpen{width: 100% !important;overflow-x: hidden !important;height: 100% !important}.RMPushSlide{position: relative;left: 75%}#responsive-menu{position: absolute;width: 75%;left: -75%;top: 0px;background: #43494C;z-index: 9999;box-shadow: 0px 1px 8px #333333;font-size: 13px !important;max-width: 999px;display: none}#responsive-menu.admin-bar-showing{padding-top: 32px}#click-menu.admin-bar-showing{margin-top: 32px}#responsive-menu #rm-additional-content{padding: 10px 5% !important;width: 90% !important;color: #FFFFFF}#responsive-menu .appendLink{right: 0px !important;position: absolute !important;border: 1px solid #3C3C3C !important;padding: 12px 10px !important;color: #FFFFFF !important;background: #43494C !important;height: 5px !important;line-height: 5px !important;border-right: 0px !important}#responsive-menu .appendLink:hover{cursor: pointer;background: #3C3C3C !important;color: #FFFFFF !important}#responsive-menu .responsive-menu, #responsive-menu div, #responsive-menu .responsive-menu li,#responsive-menu{text-align: left !important}#responsive-menu .RMImage{vertical-align: middle;margin-right: 10px;display: inline-block}#responsive-menu.RMOpened{}#responsive-menu,#responsive-menu input{}#responsive-menu #responsive-menu-title{width: 95% !important;font-size: 14px !important;padding: 20px 0px 20px 5% !important;margin-left: 0px !important;background: #43494C !important;white-space: nowrap !important}#responsive-menu #responsive-menu-title,#responsive-menu #responsive-menu-title a{color: #FFFFFF !important;text-decoration: none !important;overflow: hidden !important}#responsive-menu #responsive-menu-title a:hover{color: #FFFFFF !important;text-decoration: none !important}#responsive-menu .appendLink,#responsive-menu .responsive-menu li a,#responsive-menu #responsive-menu-title a{transition: 1s all;-webkit-transition: 1s all;-moz-transition: 1s all;-o-transition: 1s all}#responsive-menu .responsive-menu{width: 100% !important;list-style-type: none !important;margin: 0px !important}#responsive-menu .responsive-menu li.current-menu-item > a,#responsive-menu .responsive-menu li.current-menu-item > .appendLink,#responsive-menu .responsive-menu li.current_page_item > a,#responsive-menu .responsive-menu li.current_page_item > .appendLink{background: #43494C !important;color: #FFFFFF !important}#responsive-menu .responsive-menu li.current-menu-item > a:hover,#responsive-menu .responsive-menu li.current-menu-item > .appendLink:hover,#responsive-menu .responsive-menu li.current_page_item > a:hover,#responsive-menu .responsive-menu li.current_page_item > .appendLink:hover{background: #43494C !important;color: #FFFFFF !important}#responsive-menu.responsive-menu ul{margin-left: 0px !important}#responsive-menu .responsive-menu li{list-style-type: none !important;position: relative !important}#responsive-menu .responsive-menu ul li:last-child{padding-bottom: 0px !important}#responsive-menu .responsive-menu li a{padding: 12px 0px 12px 5% !important;width: 95% !important;display: block !important;height: 5px !important;line-height: 5px !important;overflow: hidden !important;white-space: nowrap !important;color: #FFFFFF !important;border-top: 1px solid #3C3C3C !important;text-decoration: none !important}#click-menu{text-align: center;cursor: pointer;font-size: 10px !important;display: none;position: absolute;right: 5%;top: 10px;color: #adadad;background: #ffffff;padding: 5px;z-index: 9999}#responsive-menu #responsiveSearch{display: block !important;width: 95% !important;padding-left: 5% !important;border-top: 1px solid #3C3C3C !important;clear: both !important;padding-top: 10px !important;padding-bottom: 10px !important;height: 40px !important;line-height: 40px !important}#responsive-menu #responsiveSearchSubmit{display: none !important}#responsive-menu #responsiveSearchInput{width: 91% !important;padding: 5px 0px 5px 3% !important;-webkit-appearance: none !important;border-radius: 2px !important;border: 1px solid #3C3C3C !important}#responsive-menu .responsive-menu,#responsive-menu div,#responsive-menu .responsive-menu li{width: 100% !important;margin-left: 0px !important;padding-left: 0px !important}#responsive-menu .responsive-menu li li a{padding-left: 10% !important;width: 90% !important;overflow: hidden !important}#responsive-menu .responsive-menu li li li a{padding-left: 15% !important;width: 85% !important;overflow: hidden !important}#responsive-menu .responsive-menu li li li li a{padding-left: 20% !important;width: 80% !important;overflow: hidden !important}#responsive-menu .responsive-menu li li li li li a{padding-left: 25% !important;width: 75% !important;overflow: hidden !important}#responsive-menu .responsive-menu li a:hover{background: #3C3C3C !important;color: #FFFFFF !important;list-style-type: none !important;text-decoration: none !important}#click-menu #RMX{display: none;font-size: 24px;line-height: 29px !important;height: 29px !important;color: #adadad !important}#click-menu .threeLines{width: 33px !important;height: 29px !important;margin: auto !important}#click-menu .threeLines .line{height: 3px !important;margin-bottom: 10px !important;background: #adadad !important;width: 100% !important}#click-menu .threeLines .line.last{margin-bottom: 0px !important}@media only screen and ( min-width : 0px ) and ( max-width : 1024px ){#click-menu{display: block}#responsive-menu .responsive-menu li li .appendLink,#responsive-menu .responsive-menu li li li{display: none !important}}</style><style type="text/css" media="screen">
+                            div#fvfeedbackbutton0 {
+                                height:83 px;
+                                position:fixed;right:0;
+                                text-indent:-9999px;
+                                top:65%;
+                                width:22px;
+                                line-height:0;
+                            }
+
+                            div#fvfeedbackbutton0 span{
+                                background:url("http://www.quantiphi.com/wp-content/plugins/wpfixedverticalfeedbackbutton/images/contact_small.png") no-repeat scroll 50% 50% #223d7e;
+                                display:block;
+                                height:83 px;
+                                padding:5px;
+                                position:fixed;right:0;
+                                text-indent:-9999px;
+                                top:65%;
+                                width:22px;
+                                line-height:0;
+
+                            }
+
+                            div#fvfeedbackbutton0 span:hover {
+                                background-color:#25b484;
+
+                            }
+                            </style><style type="text/css" media="screen">
+                div.fvfeedbackbutton {
+                    z-index: 99999 !important;
+                }
+              </style><!-- Theme Custom Styling -->
+<style type="text/css" id="theme-custom">
+body {
+	}
+h1 {
+	}
+h2 {
+	}
+h3 {
+	}
+h4 {
+	}
+h5 {
+	}
+h6 {
+	}
+.sf-menu a {
+	}
+.coll-single .navigation-container .arrow:hover > div.info > label,
+                    .coll-single .navigation-container .arrow:hover > div.info > .title-text
+                    {
+	color: #7ee08e;
+	}
+.coll-button.coll-accent-color:hover,
+                    .coll-single.lightbox,
+                    .comment-reply-link:hover,
+                    .coll-single .navigation-container .arrow:hover .fa,
+                    .coll-single .title-wrapper .icons .link:hover,
+                    .coll-post-info .categories a:hover
+                    {
+	border-color: #7ee08e;
+	}
+.coll-single .navigation-container .arrow:hover .fa,
+                    .coll-button.coll-accent-color:hover,
+                    .comment-reply-link:hover,
+                    .coll-single .title-wrapper .icons .link:hover,
+                    .coll-shortcode-portfolio .items .hentry .wrapper .under
+                    {
+	background-color: #7ee08e;
+	}
+</style>
+<!-- Other Custom Styling -->
+<style type="text/css" id="other-custom">
+.site-header {
+	height: 55px;
+	}
+.site-header .background {
+	background-color: #ffffff;
+	}
+.site-header.skrollable {
+	border-bottom-color: #000;
+}
+.site-header .logo {
+	top: 5px;
+	left:20px;
+	}
+.site-header .mainmenu {
+	top: 5px;
+	right:20px;
+	}
+.site-header.mobile #coll-menu-icon {
+	}
+.site-footer .background {
+	}
+@media only screen and (min-width : 1025px) {
+	.coll-footer-wrapper  {
+	padding: 0px 20px;
+	}
+}
+.site-footer .bottom {
+	border-top-color: ;
+	}
+</style>
+<link rel="shortcut icon" href="http://quantiphi.com//wp-content/uploads/2015/04/favicon1.gif"/>
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+
+<!-- Easy FancyBox 1.5.7 using FancyBox 1.3.7 - RavanH (http://status301.net/wordpress-plugins/easy-fancybox/) -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var fb_timeout = null;
+var fb_opts = { 'overlayShow' : true, 'hideOnOverlayClick' : true, 'showCloseButton' : true, 'centerOnScroll' : true, 'enableEscapeButton' : true, 'autoScale' : true };
+var easy_fancybox_handler = function(){
+	/* IMG */
+	var fb_IMG_select = 'a[href*=".jpg"]:not(.nofancybox,.pin-it-button), area[href*=".jpg"]:not(.nofancybox), a[href*=".jpeg"]:not(.nofancybox,.pin-it-button), area[href*=".jpeg"]:not(.nofancybox), a[href*=".png"]:not(.nofancybox,.pin-it-button), area[href*=".png"]:not(.nofancybox)';
+	jQuery(fb_IMG_select).addClass('fancybox image');
+	var fb_IMG_sections = jQuery('div.gallery');
+	fb_IMG_sections.each(function() { jQuery(this).find(fb_IMG_select).attr('rel', 'gallery-' + fb_IMG_sections.index(this)); });
+	jQuery('a.fancybox, area.fancybox, li.fancybox a:not(li.nofancybox a)').each(function() { jQuery(this).fancybox( jQuery.extend({}, fb_opts, { 'type' : 'image', 'transitionIn' : 'elastic', 'easingIn' : 'easeOutBack', 'transitionOut' : 'elastic', 'easingOut' : 'easeInBack', 'opacity' : false, 'hideOnContentClick' : false, 'titleShow' : true, 'titlePosition' : 'over', 'titleFromAlt' : true, 'showNavArrows' : true, 'enableKeyboardNav' : true, 'cyclic' : false }) );} );
+	/* Inline */
+	jQuery('a.fancybox-inline, area.fancybox-inline, li.fancybox-inline a').each(function() { jQuery(this).fancybox( jQuery.extend({}, fb_opts, { 'type' : 'inline', 'autoDimensions' : true, 'scrolling' : 'auto', 'easingIn' : 'easeOutBack', 'easingOut' : 'easeInBack', 'opacity' : false, 'hideOnContentClick' : false }) );} );
+	/* PDF */
+	jQuery('a[href*=".pdf"]:not(.nofancybox), area[href*=".pdf"]:not(.nofancybox)').addClass('fancybox-pdf');
+	jQuery('a.fancybox-pdf, area.fancybox-pdf, li.fancybox-pdf a:not(li.nofancybox a)').each(function() { jQuery(this).fancybox( jQuery.extend({}, fb_opts, { 'type' : 'html', 'width' : '90%', 'height' : '90%', 'padding' : 10, 'titleShow' : false, 'titlePosition' : 'float', 'titleFromAlt' : true, 'autoDimensions' : false, 'scrolling' : 'no', 'onStart' : function(selectedArray, selectedIndex, selectedOpts) { selectedOpts.content = '<embed src="' + selectedArray[selectedIndex].href + '#toolbar=1&navpanes=0&nameddest=self&page=1&view=FitH,0&zoom=80,0,0" type="application/pdf" height="100%" width="100%" />' } }) );} );
+	/* SWF */
+	jQuery('a[href*=".swf"]:not(.nofancybox), area[href*=".swf"]:not(.nofancybox)').addClass('fancybox-swf');
+	jQuery('a.fancybox-swf, area.fancybox-swf, li.fancybox-swf a:not(li.nofancybox a)').each(function() { jQuery(this).fancybox( jQuery.extend({}, fb_opts, { 'type' : 'swf', 'width' : 680, 'height' : 495, 'titleShow' : false, 'titlePosition' : 'float', 'titleFromAlt' : true, 'swf' : {'wmode':'opaque','allowfullscreen':true} }) );} );
+	/* SVG */
+	jQuery('a[href$=".svg"]:not(.nofancybox), area[href$=".svg"]:not(.nofancybox)').addClass('fancybox-svg');
+	jQuery('a.fancybox-svg, area.fancybox-svg, li.fancybox-svg a:not(li.nofancybox a)').each(function() { jQuery(this).fancybox( jQuery.extend({}, fb_opts, { 'type' : 'svg', 'width' : 680, 'height' : 495, 'titleShow' : false, 'titlePosition' : 'float', 'titleFromAlt' : true, 'svg' : {'wmode':'opaque','allowfullscreen':true} }) );} );
+	/* YouTube */
+	jQuery('a[href*="youtube.com/watch"]:not(.nofancybox), area[href*="youtube.com/watch"]:not(.nofancybox)').addClass('fancybox-youtube');
+	jQuery('a[href*="youtu.be/"]:not(.nofancybox), area[href*="youtu.be/"]:not(.nofancybox)').addClass('fancybox-youtube');
+	jQuery('a.fancybox-youtube, area.fancybox-youtube, li.fancybox-youtube a:not(li.nofancybox a)').each(function() { jQuery(this).fancybox( jQuery.extend({}, fb_opts, { 'type' : 'iframe', 'width' : 640, 'height' : 360, 'titleShow' : false, 'titlePosition' : 'float', 'titleFromAlt' : true, 'onStart' : function(selectedArray, selectedIndex, selectedOpts) { selectedOpts.href = selectedArray[selectedIndex].href.replace(new RegExp('youtu.be', 'i'), 'www.youtube.com/embed').replace(new RegExp('watch\\?(.*)v=([a-z0-9\_\-]+)(&amp;|&|\\?)?(.*)', 'i'), 'embed/$2?$1$4'); var splitOn = selectedOpts.href.indexOf('?'); var urlParms = ( splitOn > -1 ) ? selectedOpts.href.substring(splitOn) : ""; selectedOpts.allowfullscreen = ( urlParms.indexOf('fs=0') > -1 ) ? false : true } }) );} );
+	/* Vimeo */
+	jQuery('a[href*="vimeo.com/"]:not(.nofancybox), area[href*="vimeo.com/"]:not(.nofancybox)').addClass('fancybox-vimeo');
+	jQuery('a.fancybox-vimeo, area.fancybox-vimeo, li.fancybox-vimeo a:not(li.nofancybox a)').each(function() { jQuery(this).fancybox( jQuery.extend({}, fb_opts, { 'type' : 'iframe', 'width' : 500, 'height' : 281, 'titleShow' : false, 'titlePosition' : 'float', 'titleFromAlt' : true, 'onStart' : function(selectedArray, selectedIndex, selectedOpts) { selectedOpts.href = selectedArray[selectedIndex].href.replace(new RegExp('//(www\.)?vimeo\.com/([0-9]+)(&|\\?)?(.*)', 'i'), '//player.vimeo.com/video/$2?$4'); var splitOn = selectedOpts.href.indexOf('?'); var urlParms = ( splitOn > -1 ) ? selectedOpts.href.substring(splitOn) : ""; selectedOpts.allowfullscreen = ( urlParms.indexOf('fullscreen=0') > -1 ) ? false : true } }) );} );
+	/* Dailymotion */
+	jQuery('a[href*="dailymotion.com/"]:not(.nofancybox), area[href*="dailymotion.com/"]:not(.nofancybox)').addClass('fancybox-dailymotion');
+	jQuery('a.fancybox-dailymotion, area.fancybox-dailymotion, li.fancybox-dailymotion a:not(li.nofancybox a)').each(function() { jQuery(this).fancybox( jQuery.extend({}, fb_opts, { 'type' : 'iframe', 'width' : 560, 'height' : 315, 'titleShow' : false, 'titlePosition' : 'float', 'titleFromAlt' : true, 'onStart' : function(selectedArray, selectedIndex, selectedOpts) { selectedOpts.href = selectedArray[selectedIndex].href.replace(new RegExp('/video/(.*)', 'i'), '/embed/video/$1'); var splitOn = selectedOpts.href.indexOf('?'); var urlParms = ( splitOn > -1 ) ? selectedOpts.href.substring(splitOn) : ""; selectedOpts.allowfullscreen = ( urlParms.indexOf('fullscreen=0') > -1 ) ? false : true } }) );} );
+	/* iFrame */
+	jQuery('a.fancybox-iframe, area.fancybox-iframe, li.fancybox-iframe a').each(function() { jQuery(this).fancybox( jQuery.extend({}, fb_opts, { 'type' : 'iframe', 'width' : '70%', 'height' : '90%', 'titleShow' : false, 'titlePosition' : 'float', 'titleFromAlt' : true }) );} );
+}
+/* ]]> */
+</script>
+
+	<!--[if lt IE 8]>            
+		<style type="text/css">
+.fancybox-ie6 #fancybox-close{background:transparent;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.quantiphi.com/wp-content/plugins/easy-fancybox/fancybox/fancy_close.png",sizingMethod="scale")}
+.fancybox-ie6 #fancybox-left-ico{background:transparent;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.quantiphi.com/wp-content/plugins/easy-fancybox/fancybox/fancy_nav_left.png",sizingMethod="scale")}
+.fancybox-ie6 #fancybox-right-ico{background:transparent;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.quantiphi.com/wp-content/plugins/easy-fancybox/fancybox/fancy_nav_right.png",sizingMethod="scale")}
+.fancybox-ie6 #fancybox-title-over{background:transparent;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.quantiphi.com/wp-content/plugins/easy-fancybox/fancybox/fancy_title_over.png",sizingMethod="scale");zoom:1}
+.fancybox-ie6 #fancybox-title-float-left{background:transparent;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.quantiphi.com/wp-content/plugins/easy-fancybox/fancybox/fancy_title_left.png",sizingMethod="scale")}
+.fancybox-ie6 #fancybox-title-float-main{background:transparent;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.quantiphi.com/wp-content/plugins/easy-fancybox/fancybox/fancy_title_main.png",sizingMethod="scale")}
+.fancybox-ie6 #fancybox-title-float-right{background:transparent;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.quantiphi.com/wp-content/plugins/easy-fancybox/fancybox/fancy_title_right.png",sizingMethod="scale")}
+.fancybox-ie6 #fancybox-bg-w,.fancybox-ie6 #fancybox-bg-e,.fancybox-ie6 #fancybox-left,.fancybox-ie6 #fancybox-right,#fancybox-hide-sel-frame{height:expression(this.parentNode.clientHeight+"px")}
+#fancybox-loading.fancybox-ie6{position:absolute;margin-top:0;top:expression((-20+(document.documentElement.clientHeight ? document.documentElement.clientHeight/2 : document.body.clientHeight/2)+(ignoreMe=document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+"px")}
+#fancybox-loading.fancybox-ie6 div{background:transparent;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.quantiphi.com/wp-content/plugins/easy-fancybox/fancybox/fancy_loading.png", sizingMethod="scale")}
+.fancybox-ie #fancybox-bg-n{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.quantiphi.com/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_n.png",sizingMethod="scale")}
+.fancybox-ie #fancybox-bg-ne{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.quantiphi.com/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_ne.png",sizingMethod="scale")}
+.fancybox-ie #fancybox-bg-e{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.quantiphi.com/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_e.png",sizingMethod="scale")}
+.fancybox-ie #fancybox-bg-se{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.quantiphi.com/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_se.png",sizingMethod="scale")}
+.fancybox-ie #fancybox-bg-s{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.quantiphi.com/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_s.png",sizingMethod="scale")}
+.fancybox-ie #fancybox-bg-sw{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.quantiphi.com/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_sw.png",sizingMethod="scale")}
+.fancybox-ie #fancybox-bg-w{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.quantiphi.com/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_w.png",sizingMethod="scale")}
+.fancybox-ie #fancybox-bg-nw{filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.quantiphi.com/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_nw.png",sizingMethod="scale")}
+		</style>
+	<![endif]-->
+
+	<!--[if IE 8]>            
+		<style type="text/css">
+.fancybox-ie #fancybox-bg-n{-ms-filter:'progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.quantiphi.com/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_n.png",sizingMethod="scale")'}
+.fancybox-ie #fancybox-bg-ne{-ms-filter:'progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.quantiphi.com/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_ne.png",sizingMethod="scale")'}
+.fancybox-ie #fancybox-bg-e{-ms-filter:'progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.quantiphi.com/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_e.png",sizingMethod="scale")'}
+.fancybox-ie #fancybox-bg-se{-ms-filter:'progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.quantiphi.com/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_se.png",sizingMethod="scale")'}
+.fancybox-ie #fancybox-bg-s{-ms-filter:'progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.quantiphi.com/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_s.png",sizingMethod="scale")'}
+.fancybox-ie #fancybox-bg-sw{-ms-filter:'progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.quantiphi.com/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_sw.png",sizingMethod="scale")'}
+.fancybox-ie #fancybox-bg-w{-ms-filter:'progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.quantiphi.com/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_w.png",sizingMethod="scale")'}
+.fancybox-ie #fancybox-bg-nw{-ms-filter:'progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.quantiphi.com/wp-content/plugins/easy-fancybox/fancybox/fancy_shadow_nw.png",sizingMethod="scale")'}
+		</style>
+	<![endif]-->
+</head>
+
+
+<body class="home page page-id-792 page-template page-template-template-sectioned page-template-template-sectioned-php coll-custom-structure">
+<header class="site-header ">
+    <div class="background"></div>
+    <div class="">
+        <div class="logo coll-left">
+            <a class="no-border" href="http://www.quantiphi.com">
+                                    <img class="logo-img" src="http://www.quantiphi.com/wp-content/uploads/2015/04/main_logo.svg" title="" alt="Quantiphi">
+                            </a>
+        </div>
+        <nav class="mainmenu  coll-right">
+            <ul id="menu-header-menu" class="sf-menu"><li id="menu-item-1558" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-792 current_page_item menu-item-1558"><a class="no-border" href="http://www.quantiphi.com/">Home</a></li>
+<li id="menu-item-1565" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1565"><a class="no-border" href="http://www.quantiphi.com/services/">Services</a>
+<ul class="sub-menu">
+	<li id="menu-item-1711" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1711"><a class="no-border" href="http://www.quantiphi.com/big-data-integration">Big Data Integration</a></li>
+	<li id="menu-item-1712" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1712"><a class="no-border" href="http://www.quantiphi.com/business-intelligence-modernization/">Business Intelligence Modernization</a></li>
+	<li id="menu-item-1713" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1713"><a class="no-border" href="http://www.quantiphi.com/machine-learning">Machine Learning</a></li>
+	<li id="menu-item-1714" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1714"><a class="no-border" href="http://www.quantiphi.com/decision-science">Decision Science</a></li>
+</ul>
+</li>
+<li id="menu-item-2695" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2695"><a class="no-border" href="http://www.quantiphi.com/healthcare/">Solutions</a>
+<ul class="sub-menu">
+	<li id="menu-item-1708" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1708"><a class="no-border" href="http://www.quantiphi.com/healthcare">Healthcare</a></li>
+	<li id="menu-item-1709" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1709"><a class="no-border" href="http://www.quantiphi.com/financial-services">Financial Services</a></li>
+	<li id="menu-item-3139" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3139"><a class="no-border" href="http://www.quantiphi.com/travel/">Travel</a></li>
+</ul>
+</li>
+<li id="menu-item-1701" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1701"><a class="no-border" href="http://www.quantiphi.com/about/">Company</a>
+<ul class="sub-menu">
+	<li id="menu-item-1700" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1700"><a class="no-border" href="http://www.quantiphi.com/about">About</a></li>
+	<li id="menu-item-1704" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1704"><a class="no-border" href="http://www.quantiphi.com/management-team/">Management Team</a></li>
+	<li id="menu-item-1563" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1563"><a class="no-border" href="http://www.quantiphi.com/partners/">Partners</a></li>
+</ul>
+</li>
+<li id="menu-item-1560" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1560"><a class="no-border" href="http://www.quantiphi.com/careers/">Careers</a></li>
+<li id="menu-item-3142" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3142"><a class="no-border" href="http://www.quantiphi.com/contact-us/">Contact us</a></li>
+</ul>        </nav>
+
+    </div>
+</header>
+<header class="site-header mobile">
+    <div class="background"></div>
+    <div class="row">
+        <div class="logo">
+            <a class="no-border" href="http://www.quantiphi.com">
+                                    <img class="logo-img" src="http://www.quantiphi.com/wp-content/uploads/2015/04/main_logo.svg" title="" alt="Quantiphi">
+                            </a>
+        </div>
+        <a id="coll-menu-icon" class="no-border" href=""><i class="fa fa-bars"></i></a>
+        <nav class="mainmenu">
+            <ul id="menu-header-menu-1" class="sf-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-792 current_page_item menu-item-1558"><a class="no-border" href="http://www.quantiphi.com/">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1565"><a class="no-border" href="http://www.quantiphi.com/services/">Services</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1711"><a class="no-border" href="http://www.quantiphi.com/big-data-integration">Big Data Integration</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1712"><a class="no-border" href="http://www.quantiphi.com/business-intelligence-modernization/">Business Intelligence Modernization</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1713"><a class="no-border" href="http://www.quantiphi.com/machine-learning">Machine Learning</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1714"><a class="no-border" href="http://www.quantiphi.com/decision-science">Decision Science</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2695"><a class="no-border" href="http://www.quantiphi.com/healthcare/">Solutions</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1708"><a class="no-border" href="http://www.quantiphi.com/healthcare">Healthcare</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1709"><a class="no-border" href="http://www.quantiphi.com/financial-services">Financial Services</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3139"><a class="no-border" href="http://www.quantiphi.com/travel/">Travel</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1701"><a class="no-border" href="http://www.quantiphi.com/about/">Company</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1700"><a class="no-border" href="http://www.quantiphi.com/about">About</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1704"><a class="no-border" href="http://www.quantiphi.com/management-team/">Management Team</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1563"><a class="no-border" href="http://www.quantiphi.com/partners/">Partners</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1560"><a class="no-border" href="http://www.quantiphi.com/careers/">Careers</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3142"><a class="no-border" href="http://www.quantiphi.com/contact-us/">Contact us</a></li>
+</ul>        </nav>
+    </div>
+</header>
+
+<div id="skrollr-body" role="main" class="wrapper common">
+ <section id="new-slider" class="post-2808 coll-page-section type-coll-page-section status-publish hentry page-section coll-full-height coll-full-width js-coll-window"><div class="coll-section-background js-coll-parallax"  style="background-color: #fff" ><div class="overlay" style="background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center top;
+	" ></div></div><div class="section-content row "><div class="columns entry-title coll-hide-title" ><h2 class="title" style="color: #fff">New Slider</h2><h4 class="subtitle" style="color: #fff"></h4></div><div class="entry-content columns"><script data-cfasync="false" type="text/javascript">var lsjQuery = jQuery;</script><script data-cfasync="false" type="text/javascript"> lsjQuery(document).ready(function() { if(typeof lsjQuery.fn.layerSlider == "undefined") { lsShowNotice('layerslider_7','jquery'); } else { lsjQuery("#layerslider_7").layerSlider({forceLoopNum: false, skin: 'fullwidth', navStartStop: false, autoPlayVideos: false, skinsPath: 'http://www.quantiphi.com/wp-content/plugins/LayerSlider/static/skins/'}) } }); </script><div id="layerslider_7" class="ls-wp-container" style="width:1920px;height:1080px;margin:0 auto;margin-bottom: 0px;"><div class="ls-slide" data-ls="slidedelay:5000;transition2d:5,75,79;"><img src="http://www.quantiphi.com/wp-content/plugins/LayerSlider/static/img/blank.gif" data-src="http://www.quantiphi.com/wp-content/uploads/2015/04/bg_2.jpg" class="ls-bg" alt="bg_new2" /><h1 class="ls-l" style="top:244px;left:425px;white-space: nowrap;">Empower Your Decisions With Impact Ready Analytics</h1><img class="ls-l" style="top:324px;left:335px;white-space: nowrap;" data-ls="delayin:600;" src="http://www.quantiphi.com/wp-content/plugins/LayerSlider/static/img/blank.gif" data-src="http://www.quantiphi.com/wp-content/uploads/2015/04/equation_11.png" alt=""><a href="http://www.quantiphi.com/contact-us/" target="_blank" class="ls-l" style="top:680px;left:825px;" data-ls="delayin:900;"><img style="white-space: nowrap;" src="http://www.quantiphi.com/wp-content/plugins/LayerSlider/static/img/blank.gif" data-src="http://www.quantiphi.com/wp-content/uploads/2015/04/get_stated.png" alt=""></a><h3 class="ls-l" style="top:752px;left:945px;white-space: nowrap;" data-ls="delayin:1200;">OR</h3><h4 class="ls-l" style="top:800px;left:825px;white-space: nowrap;" data-ls="delayin:1500;">SCROLL TO LEARN MORE</h4></div><div class="ls-slide" data-ls="slidedelay:5000;transition2d:5,75,79;"><img src="http://www.quantiphi.com/wp-content/plugins/LayerSlider/static/img/blank.gif" data-src="http://www.quantiphi.com/wp-content/uploads/2015/04/bg_2.jpg" class="ls-bg" alt="bg_new2" /><img class="ls-l" style="top:289px;left:650px;white-space: nowrap;" src="http://www.quantiphi.com/wp-content/plugins/LayerSlider/static/img/blank.gif" data-src="http://www.quantiphi.com/wp-content/uploads/2015/04/2-300x298.png" alt=""><h1 class="ls-l" style="top:428px;left:1000px;white-space: nowrap;" data-ls="delayin:600;">Gain context</h1><a href="http://www.quantiphi.com/contact-us/" target="_self" class="ls-l" style="top:680px;left:825px;" data-ls="delayin:900;"><img style="white-space: nowrap;" src="http://www.quantiphi.com/wp-content/plugins/LayerSlider/static/img/blank.gif" data-src="http://www.quantiphi.com/wp-content/uploads/2015/04/get_stated.png" alt=""></a><h3 class="ls-l" style="top:752px;left:945px;white-space: nowrap;" data-ls="delayin:1200;">OR</h3><h4 class="ls-l" style="top:800px;left:825px;white-space: nowrap;" data-ls="delayin:1500;">SCROLL TO LEARN MORE</h4></div><div class="ls-slide" data-ls="slidedelay:5000;transition2d:5,75,79;"><img src="http://www.quantiphi.com/wp-content/plugins/LayerSlider/static/img/blank.gif" data-src="http://www.quantiphi.com/wp-content/uploads/2015/04/bg_2.jpg" class="ls-bg" alt="bg_new2" /><img class="ls-l" style="top:226px;left:620px;white-space: nowrap;" src="http://www.quantiphi.com/wp-content/plugins/LayerSlider/static/img/blank.gif" data-src="http://www.quantiphi.com/wp-content/uploads/2015/03/3.png" alt=""><h1 class="ls-l" style="top:441px;left:1000px;white-space: nowrap;" data-ls="delayin:600;">Find perspective</h1><a href="http://www.quantiphi.com/contact-us/" target="_self" class="ls-l" style="top:680px;left:825px;" data-ls="delayin:900;"><img style="white-space: nowrap;" src="http://www.quantiphi.com/wp-content/plugins/LayerSlider/static/img/blank.gif" data-src="http://www.quantiphi.com/wp-content/uploads/2015/04/get_stated.png" alt=""></a><h3 class="ls-l" style="top:752px;left:945px;white-space: nowrap;" data-ls="delayin:1200;">OR</h3><h4 class="ls-l" style="top:800px;left:825px;white-space: nowrap;" data-ls="delayin:1500;">SCROLL TO LEARN MORE</h4></div><div class="ls-slide" data-ls="slidedelay:5000;transition2d:5,75,79;"><img src="http://www.quantiphi.com/wp-content/plugins/LayerSlider/static/img/blank.gif" data-src="http://www.quantiphi.com/wp-content/uploads/2015/04/bg_2.jpg" class="ls-bg" alt="bg_new2" /><h1 class="ls-l" style="top:265px;left:730px;white-space: nowrap;">Discover hidden patterns</h1><img class="ls-l" style="top:362px;left:525px;white-space: nowrap;" data-ls="delayin:600;" src="http://www.quantiphi.com/wp-content/plugins/LayerSlider/static/img/blank.gif" data-src="http://www.quantiphi.com/wp-content/uploads/2015/03/4.png" alt=""><a href="http://www.quantiphi.com/contact-us/" target="_self" class="ls-l" style="top:680px;left:825px;" data-ls="delayin:900;"><img style="white-space: nowrap;" src="http://www.quantiphi.com/wp-content/plugins/LayerSlider/static/img/blank.gif" data-src="http://www.quantiphi.com/wp-content/uploads/2015/04/get_stated.png" alt=""></a><h3 class="ls-l" style="top:752px;left:945px;white-space: nowrap;" data-ls="delayin:1200;">OR</h3><h4 class="ls-l" style="top:800px;left:825px;white-space: nowrap;" data-ls="delayin:1500;">SCROLL TO LEARN MORE</h4></div></div>
+</div></div></section><section id="portfolio-ex2" class="post-806 coll-page-section type-coll-page-section status-publish hentry page-section js-coll-window-min"><div class="coll-section-background js-coll-parallax"  style="background-color: #fff" ><div class="overlay" style="" ></div></div><div class="section-content row "><div class="columns entry-title coll-hide-title" ><h2 class="title" style="color: #fff">Portfolio &#8211; ex2</h2><h4 class="subtitle" style="color: #fff"></h4></div><div class="entry-content columns"><p>&nbsp;</p>
+<div class="row "><div class="columns large-12 medium-12 "><div class=" coll-text type-04 js-coll-texttype-resize" data-coll-font-size='{"max":30,"min":30}' style="color:#000;border-color:#000" ><span class="text">Explore How Data Science is Reinventing Business</span></div></div></div>
+<p>&nbsp;</p>
+<div class="coll-shortcode-portfolio "><ul class="filter"><li><a  href="#"
+                            class="coll-button one item js-coll-portfolio-filter"
+                            style="color:#cbcbcb;border-color:#cbcbcb"
+                            data-coll-color="#cbcbcb"
+                            data-coll-color-hover="#000000"
+                            data-filter="*"
+                            >All</a></li><li><a  href="#"
+                                class="coll-button one item js-coll-portfolio-filter"
+                                style="color:#cbcbcb;border-color:#cbcbcb"
+                                data-coll-color="#cbcbcb"
+                                data-coll-color-hover="#000000"
+                                data-filter=".case-studies"
+                               >Case studies</a></li><li><a  href="#"
+                                class="coll-button one item js-coll-portfolio-filter"
+                                style="color:#cbcbcb;border-color:#cbcbcb"
+                                data-coll-color="#cbcbcb"
+                                data-coll-color-hover="#000000"
+                                data-filter=".use-cases"
+                               >Use cases</a></li></ul><div class="items js-coll-portfolio"><article id="awesome-icons"
+                                 class="post-451 coll-portfolio type-coll-portfolio status-publish hentry case-studies large-4 medium-6 columns"
+                                 data-coll-hover-opacity="0.10"><div class="wrapper"><div class="holder"><img class="hidden"
+                                    width="321"
+                                    height="210"
+                                    alt="PREDICTING TURNING POINTS IN LIFECYCLE DEMAND"
+                                    src="http://www.quantiphi.com/wp-content/uploads/2015/04/CS_11.jpg"
+                                    /><div class="inner"><a class="thumb js-coll-port-lightbox" href="http://www.quantiphi.com/portfolio/awesome-icons/" ><div class="color under" style="background-color: #3f88b8;"></div><img class="visible"
+                                    width="321"
+                                    height="210"
+                                    alt="PREDICTING TURNING POINTS IN LIFECYCLE DEMAND"
+                                    src="http://www.quantiphi.com/wp-content/uploads/2015/04/CS_11.jpg"
+                                    /><div class="color above"></div><div class="info"><div class="vcenter"><h3 class="title" style="font-size:16px" >PREDICTING TURNING POINTS IN LIFECYCLE DEMAND</h3></div></div></a></div></div></div></article><article id="redesign-morpheus"
+                                 class="post-450 coll-portfolio type-coll-portfolio status-publish hentry case-studies large-4 medium-6 columns"
+                                 data-coll-hover-opacity="0.10"><div class="wrapper"><div class="holder"><img class="hidden"
+                                    width="321"
+                                    height="210"
+                                    alt="PREDICTING CUSTOMER CHURN"
+                                    src="http://www.quantiphi.com/wp-content/uploads/2015/04/CS_21.jpg"
+                                    /><div class="inner"><a class="thumb js-coll-port-lightbox" href="http://www.quantiphi.com/portfolio/redesign-morpheus/" ><div class="color under" style="background-color: #3f88b8;"></div><img class="visible"
+                                    width="321"
+                                    height="210"
+                                    alt="PREDICTING CUSTOMER CHURN"
+                                    src="http://www.quantiphi.com/wp-content/uploads/2015/04/CS_21.jpg"
+                                    /><div class="color above"></div><div class="info"><div class="vcenter"><h3 class="title" style="font-size:16px" >PREDICTING CUSTOMER CHURN</h3></div></div></a></div></div></div></article><article id="vintage-typos"
+                                 class="post-449 coll-portfolio type-coll-portfolio status-publish hentry case-studies large-4 medium-6 columns"
+                                 data-coll-hover-opacity="0.10"><div class="wrapper"><div class="holder"><img class="hidden"
+                                    width="321"
+                                    height="210"
+                                    alt="PREDICTING 30 DAY READMISSIONS"
+                                    src="http://www.quantiphi.com/wp-content/uploads/2015/04/CS_31.jpg"
+                                    /><div class="inner"><a class="thumb js-coll-port-lightbox" href="http://www.quantiphi.com/portfolio/vintage-typos/" ><div class="color under" style="background-color: #3f88b8;"></div><img class="visible"
+                                    width="321"
+                                    height="210"
+                                    alt="PREDICTING 30 DAY READMISSIONS"
+                                    src="http://www.quantiphi.com/wp-content/uploads/2015/04/CS_31.jpg"
+                                    /><div class="color above"></div><div class="info"><div class="vcenter"><h3 class="title" style="font-size:16px" >PREDICTING 30 DAY READMISSIONS</h3></div></div></a></div></div></div></article><article id="freebie-calendar"
+                                 class="post-448 coll-portfolio type-coll-portfolio status-publish hentry case-studies large-4 medium-6 columns"
+                                 data-coll-hover-opacity="0.10"><div class="wrapper"><div class="holder"><img class="hidden"
+                                    width="321"
+                                    height="210"
+                                    alt="PREDICTING HIGH COST CASES"
+                                    src="http://www.quantiphi.com/wp-content/uploads/2015/04/CS_411.jpg"
+                                    /><div class="inner"><a class="thumb js-coll-port-lightbox" href="http://www.quantiphi.com/portfolio/freebie-calendar/" ><div class="color under" style="background-color: #3f88b8;"></div><img class="visible"
+                                    width="321"
+                                    height="210"
+                                    alt="PREDICTING HIGH COST CASES"
+                                    src="http://www.quantiphi.com/wp-content/uploads/2015/04/CS_411.jpg"
+                                    /><div class="color above"></div><div class="info"><div class="vcenter"><h3 class="title" style="font-size:16px" >PREDICTING HIGH COST CASES</h3></div></div></a></div></div></div></article></div></div>
+</div></div></section><section id="path-to-value" class="post-1570 coll-page-section type-coll-page-section status-publish hentry page-section coll-full-height "><div class="coll-section-background js-coll-parallax"  style="background-color: #fff" ><div class="overlay" style="background-position: center center;
+	" ></div></div><div class="section-content row "><div class="columns entry-title coll-hide-title" ><h2 class="title" style="color: #fff">Path to value</h2><h4 class="subtitle" style="color: #fff"></h4></div><div class="entry-content columns"><div class="columns large-5 medium-12 path_value_cont"></p>
+<h2>Path to Value</h2>
+<div class="path_to_value_tit">Our proven 5 step journey that takes you from raw data to measurable business impact</div>
+<div class="path_to_value_tit"></div>
+<div class="path_to_value_tit"></div>
+<div class="path_to_value_tit"></div>
+<p><a   style="border-radius : 0px; -moz-border-radius:0px; -webkit-border-radius0px;"
+                        class="coll-button js-coll-button "
+                        href="http://www.quantiphi.com/services/"
+                        target="_self"
+                         data-coll-color="#fff" data-coll-color-hover="#fff" data-coll-border="0px none " data-coll-border-hover="0px none " data-coll-background-color="#233e7f" data-coll-background-color-hover="#7ee08e">CLICK HERE TO KNOW MORE</a><br />
+</div>
+<div class="columns large-6 medium-12 path-to_value_img"><br />
+<img class="alignright size-full wp-image-1573" src="http://www.quantiphi.com/wp-content/uploads/2015/04/chart.png" alt="chart" width="731" height="550" /><br />
+</div>
+</div></div></section><section id="typo-ex2" class="post-904 coll-page-section type-coll-page-section status-publish hentry page-section "><div class="coll-section-background js-coll-parallax"  style="background-color: #c6c6c6" ><div class="overlay" style="background-color: #ffffff;
+	background-repeat: no-repeat;
+	" ></div></div><div class="section-content row "><div class="columns entry-title coll-hide-title" ><h2 class="title" style="color: #383838">NEEDS ASSESSMENT</h2><h4 class="subtitle" style="color: #fff"></h4></div><div class="entry-content columns"><div class=" coll-text type-04 js-coll-texttype-resize" data-coll-font-size="{&quot;max&quot;:30,&quot;min&quot;:30}" style="color: rgb(0, 0, 0); border-color: rgb(0, 0, 0); font-size: 30px;"><span class="text">Ready to experience Impact Ready Data Science?</span></div>
+<div class="need-assessmenT_txt">
+<!--div class="text">Ready to experience Impact Ready Data Science?</div-->
+Help us better understand your challenges.
+</div>
+<p><div class="columns large-4 medium-12 ">
+			<div class="mind-blown-holder">
+				<div class="previewMain square_preview" style="width: 321px; height: 210px; border: 0px solid rgb(255, 255, 255); background-color: rgb(36, 62, 129);">
+					<div class="previewMain_text_div">
+						<p style="text-align: center; color: rgb(255, 255, 255); font-size: 14px; margin-top: 85px;" class="previewMain_text">I am intrigued but don't know where to start</p>
+					</div>
+					<div style="top: 125.933px; width: 321px; height: 210px; background: none no-repeat scroll 0% 0% / 100% auto rgb(102, 102, 102);" class="hoverMain square_hover" entrance="1">
+						<a href="#" class="title_link" style="color: white;"><h1 style="text-align: center; color: rgb(255, 255, 255); font-size: 12px;" id="thehover_title">Allow us to help you articulate your path to value</h1></a>
+						<hr class="divider-display" style="margin: 0px; width: 100%; display: none;"/>
+						<p style="text-align: center; color: white; margin-top: 15px; font-size: 12px;" id="thehover_content"><a href="http://www.quantiphi.com/contact-us/"><img src="http://www.quantiphi.com/wp-content/uploads/2015/04/thumb_icon11.png"/></a></p>
+					</div>
+				</div>
+			</div>
+		</div><div class="columns large-4 medium-12 ">
+			<div class="mind-blown-holder">
+				<div class="previewMain square_preview" style="width: 321px; height: 210px; background-color: rgb(37, 180, 132);">
+					<div class="previewMain_text_div">
+						<p style="text-align: center; color: rgb(255, 255, 255); font-size: 14px; margin-top: 80px;" class="previewMain_text">We collect lots of data in multiple silos but don’t have a unified view. </p>
+					</div>
+					<div style="top: 107.933px; width: 321px; height: 210px; background-color: rgb(102, 102, 102);" class="hoverMain square_hover" entrance="1">
+						<a href="#" class="title_link" style="color: white;"><h1 style="text-align: center; color: white; font-size: 12px;" id="thehover_title">Allow us to show you how we can integrate your data and make it impact ready</h1></a>
+						<hr class="divider-display" style="margin: 0px; width: 100%; display: none;"/>
+						<p style="text-align: center; color: white; margin-top: 0px; line-height: 20px;" id="thehover_content"><a href="http://www.quantiphi.com/big-data-integration"><img src="http://www.quantiphi.com/wp-content/uploads/2015/04/thumb_icon21.png"/></a></p>
+					</div>
+				</div>
+			</div>
+		</div><div class="columns large-4 medium-12 ">
+			<div class="mind-blown-holder">
+				<div class="previewMain square_preview" style="width: 321px; height: 210px; background-color: rgb(36, 62, 129); border: 0px solid rgb(0, 0, 0);">
+					<div class="previewMain_text_div">
+						<p style="text-align: center; color: rgb(255, 255, 255); font-size: 14px; margin-top: 70px;" class="previewMain_text">We have unified data sets but face challenges measuring performance, understanding business trends and pinpointing problems and opportunities.</p>
+					</div>
+					<div style="top: 107.933px; width: 321px; height: 210px; background-color: rgb(102, 102, 102);" class="hoverMain square_hover" entrance="1">
+						<a href="#" class="title_link" style="color: white;"><h1 style="text-align: center; color: rgb(255, 255, 255); font-size: 12px;" id="thehover_title">Allow us to show you how you can get impact ready business intelligence at your fingertips.</h1></a>
+						<hr class="divider-display" style="margin: 0px; width: 100%; display: none;"/>
+						<p style="text-align: center; color: white; font-size: 18px; margin-top: 5px;" id="thehover_content"><a href="http://www.quantiphi.com/business-intelligence-modernization/"><img src="http://www.quantiphi.com/wp-content/uploads/2015/04/thumb_icon31.png"/></a></p>
+					</div>
+				</div>
+			</div>
+		</div><div class="columns large-4 medium-12 ">
+			<div class="mind-blown-holder">
+				<div class="previewMain square_preview" style="width: 321px; height: 210px; background-color: rgb(37, 182, 132);">
+					<div class="previewMain_text_div">
+						<p style="text-align: center; color: rgb(255, 255, 255); font-size: 14px; margin-top: 75px;" class="previewMain_text">We understand our current business trends but face challenges in using data to anticipate what's next.</p>
+					</div>
+					<div style="top: 143.933px; width: 321px; height: 210px; background-color: rgb(102, 102, 102);" class="hoverMain square_hover" entrance="1">
+						<a href="#" class="title_link" style="color: white;"><h1 style="text-align: center; color: white; font-size: 12px;" id="thehover_title"> </h1></a>
+						<hr class="divider-display" style="margin: 0px; width: 100%; display: none;"/>
+						<p style="text-align: center; color: white; font-size: 12px;" id="thehover_content"><strong>Allow us to help you apply advanced machine learning algorithms to predict and optimize business outcomes.</strong><br /><a href="http://www.quantiphi.com/machine-learning/"><img src="http://www.quantiphi.com/wp-content/uploads/2015/04/thumb_icon41.png"/></a></p>
+					</div>
+				</div>
+			</div>
+		</div><div class="columns large-4 medium-12 ">
+			<div class="mind-blown-holder">
+				<div class="previewMain square_preview" style="height: 210px; width: 321px; background-color: rgb(36, 62, 129);">
+					<div class="previewMain_text_div">
+						<p style="text-align: center; color: rgb(255, 255, 255); margin-top: 75px; font-size: 14px;" class="previewMain_text">We&nbsp;have predictive analytics capabilities but face challenges in making models action ready.</p>
+					</div>
+					<div style="top: 107.933px; height: 210px; width: 321px; background-color: rgb(102, 102, 102);" class="hoverMain square_hover" entrance="1">
+						<a href="#" class="title_link" style="color: white;"><h1 style="text-align: center; color: rgb(255, 255, 255); font-size: 12px;" id="thehover_title">Allow us to help you translate models into intuitive decision support tools to activate business impact.</h1></a>
+						<hr class="divider-display" style="margin: 0px; width: 100%; display: none;"/>
+						<p style="text-align: center; color: white; font-size: 16px; margin-top: 0px;" id="thehover_content"><a href="http://www.quantiphi.com/decision-science/"><img src="http://www.quantiphi.com/wp-content/uploads/2015/04/thumb_icon51.png"/></a></p>
+					</div>
+				</div>
+			</div>
+		</div><div class="columns large-4 medium-12 ">
+			<div class="mind-blown-holder">
+				<div class="previewMain square_preview" style="width: 321px; height: 210px; background-color: rgb(37, 180, 132);">
+					<div class="previewMain_text_div">
+						<p style="text-align: center; color: rgb(255, 255, 255); margin-top: 80px; font-size: 14px;" class="previewMain_text">We have all of the above but can’t scale due to scarcity of data science resources</p>
+					</div>
+					<div style="top: 107.933px; width: 321px; height: 210px; background: none no-repeat scroll 0% 0% / 100% auto rgb(102, 102, 102);" class="hoverMain square_hover" entrance="1">
+						<a href="#" class="title_link" style="color: white;"><h1 style="text-align: center; color: white; font-size: 12px;" id="thehover_title">Allow us to help you, augment and scale data science across your enterprise.</h1></a>
+						<hr class="divider-display" style="margin: 0px; width: 100%; display: none;"/>
+						<p style="text-align: center; color: white; margin-top: 0px; font-size: 13px;" id="thehover_content"><a href="#"><img src="http://www.quantiphi.com/wp-content/uploads/2015/04/thumb_icon611.png"/></a></p>
+					</div>
+				</div>
+			</div>
+		</div></p>
+</div></div></section>
+</div>
+<div  style="background-color: #222838;width:100%; display:block !important;visibility:visible !important;overflow: auto;bottom:0">
+	<div class="large-12 columns">
+		<div class="large-3 columns">
+			<div class="sidebar-container">
+				<div id="text-3" class="widget widget_text">			<div class="textwidget"><div class="footer_logo_img"><img src="http://www.quantiphi.com/wp-content/uploads/2015/05/footer_logo_new.png"></div>
+<div class="footer-subslogan">Analytics is in our DNA</div>
+
+
+<div class="coll-social-icon" style="padding:10px"><a  style="font-size :1em;width :36px;height :36px;border-radius :50%;"
+                        class="js-coll-social-icon"
+                        href="https://www.facebook.com/pages/Quantiphi/329833880517923"
+                        target="blank"
+                        data-coll-color="#fff"
+                        data-coll-color-hover="#fff"
+                        data-coll-border-color="#fff"
+                        data-coll-background-color-hover="#3b579d"
+                    ><i class="fa fa-facebook"></i></a></div>
+<div class="coll-social-icon" style="padding:10px"><a  style="font-size :1em;width :36px;height :36px;border-radius :50%;"
+                        class="js-coll-social-icon"
+                        href="https://plus.google.com/108451745060332935625/"
+                        target="blank"
+                        data-coll-color="#fff"
+                        data-coll-color-hover="#fff"
+                        data-coll-border-color="#fff"
+                        data-coll-background-color-hover="#d03e2f"
+                    ><i class="fa fa-google-plus"></i></a></div>
+<div class="coll-social-icon" style="padding:10px"><a  style="font-size :1em;width :36px;height :36px;border-radius :50%;"
+                        class="js-coll-social-icon"
+                        href="https://twitter.com/quantiphi"
+                        target="blank"
+                        data-coll-color="#fff"
+                        data-coll-color-hover="#fff"
+                        data-coll-border-color="#fff"
+                        data-coll-background-color-hover="#55a8ec"
+                    ><i class="fa fa-twitter"></i></a></div>
+<div class="coll-social-icon" style="padding:10px"><a  style="font-size :1em;width :36px;height :36px;border-radius :50%;"
+                        class="js-coll-social-icon"
+                        href="https://www.linkedin.com/company/quantiphi-inc-"
+                        target="blank"
+                        data-coll-color="#fff"
+                        data-coll-color-hover="#fff"
+                        data-coll-border-color="#fff"
+                        data-coll-background-color-hover="#0077b4"
+                    ><i class="fa fa-linkedin"></i></a></div></div>
+		</div>			</div>
+		</div>
+		<div class="large-3 columns">
+			<div class="sidebar-container">
+				<div id="nav_menu-2" class="widget widget_nav_menu"><h6 class="footer-widget-title"><span>COMPANY</span></h6><div class="menu-about-new-container"><ul id="menu-about-new" class="menu"><li id="menu-item-1765" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1765"><a class="no-border" href="http://www.quantiphi.com/about/">About</a></li>
+<li id="menu-item-1766" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1766"><a class="no-border" href="http://www.quantiphi.com/management-team/">Management Team</a></li>
+<li id="menu-item-1767" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1767"><a class="no-border" href="http://www.quantiphi.com/partners/">Partners</a></li>
+</ul></div></div>				<div id="nav_menu-3" class="widget widget_nav_menu"><h6 class="footer-widget-title"><span>SERVICES</span></h6><div class="menu-get-started-container"><ul id="menu-get-started" class="menu"><li id="menu-item-1780" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1780"><a class="no-border" href="http://www.quantiphi.com/big-data-integration/">Big Data Integration</a></li>
+<li id="menu-item-1782" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1782"><a class="no-border" href="http://www.quantiphi.com/business-intelligence-modernization/">Business Intelligence  Modernization</a></li>
+<li id="menu-item-1783" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1783"><a class="no-border" href="http://www.quantiphi.com/machine-learning/">Machine Learning</a></li>
+<li id="menu-item-2765" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2765"><a class="no-border" href="http://www.quantiphi.com/decision-science/">Decision Science</a></li>
+</ul></div></div>			</div>
+		</div>
+		
+		<div class="large-3 columns">
+			<div class="sidebar-container">
+				<div id="nav_menu-4" class="widget widget_nav_menu"><h6 class="footer-widget-title"><span>SOLUTIONS</span></h6><div class="menu-services-new-container"><ul id="menu-services-new" class="menu"><li id="menu-item-1769" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1769"><a class="no-border" href="http://www.quantiphi.com/healthcare">Healthcare</a></li>
+<li id="menu-item-1770" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1770"><a class="no-border" href="http://www.quantiphi.com/financial-services/">Financial Services</a></li>
+<li id="menu-item-1771" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1771"><a class="no-border" href="http://www.quantiphi.com/travel/">Travel</a></li>
+</ul></div></div>				<div id="nav_menu-5" class="widget widget_nav_menu"><h6 class="footer-widget-title"><span>SECURITY</span></h6><div class="menu-security_new-container"><ul id="menu-security_new" class="menu"><li id="menu-item-3259" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3259"><a class="no-border" href="http://www.quantiphi.com/security/">Terms &#038; Conditions</a></li>
+<li id="menu-item-1760" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1760"><a class="no-border" href="http://www.quantiphi.com/security/#policy">Privacy Policy</a></li>
+</ul></div></div>			</div>
+		</div>
+	
+		
+		<div class="large-3 columns">
+			<div class="sidebar-container">
+				<div id="text-2" class="widget widget_text">			<div class="textwidget"><img src="http://www.quantiphi.com/wp-content/uploads/2015/04/boston_india_map11.png"></div>
+		</div>			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<script type="text/javascript">
+	$('#submit-btn_new2').on('click', function(){
+		$('#uniqueID3').slideToggle();
+	});
+	$('#form_close').on('click', function(){
+		$('#uniqueID3').hide();
+	});
+	
+	/*var submit_btn_new2 = document.getElementById("submit-btn_new2");
+	submit_btn_new2.onTouchStart = function(){
+		alert("TOUCH START")
+	}
+	submit_btn_new2.onTouchEnd = function(){
+		alert("TOUCH END");
+	}*/
+	
+	$("#submit-btn_new2").touchstart(function(){
+		//alert("TOUCH START")
+		$('#uniqueID3').slideToggle();
+	},
+	function(){
+	  
+	});
+	
+</script>
+
+
+<!-- Added by Responsive Menu Plugin created by Peter Featherstone -->
+
+<div id="responsive-menu" >
+
+    <div class="menu-header-menu-container"><ul id="menu-header-menu-2" class="responsive-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-792 current_page_item menu-item-1558"><a class="no-border" href="http://www.quantiphi.com/">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1565"><a class="no-border" href="http://www.quantiphi.com/services/">Services</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1711"><a class="no-border" href="http://www.quantiphi.com/big-data-integration">Big Data Integration</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1712"><a class="no-border" href="http://www.quantiphi.com/business-intelligence-modernization/">Business Intelligence Modernization</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1713"><a class="no-border" href="http://www.quantiphi.com/machine-learning">Machine Learning</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1714"><a class="no-border" href="http://www.quantiphi.com/decision-science">Decision Science</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2695"><a class="no-border" href="http://www.quantiphi.com/healthcare/">Solutions</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1708"><a class="no-border" href="http://www.quantiphi.com/healthcare">Healthcare</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1709"><a class="no-border" href="http://www.quantiphi.com/financial-services">Financial Services</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3139"><a class="no-border" href="http://www.quantiphi.com/travel/">Travel</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1701"><a class="no-border" href="http://www.quantiphi.com/about/">Company</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1700"><a class="no-border" href="http://www.quantiphi.com/about">About</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1704"><a class="no-border" href="http://www.quantiphi.com/management-team/">Management Team</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1563"><a class="no-border" href="http://www.quantiphi.com/partners/">Partners</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1560"><a class="no-border" href="http://www.quantiphi.com/careers/">Careers</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3142"><a class="no-border" href="http://www.quantiphi.com/contact-us/">Contact us</a></li>
+</ul></div>    
+</div>
+
+<!-- Added by Responsive Menu Plugin created by Peter Featherstone -->
+
+<div id="click-menu" >
+
+
+
+    <div class="threeLines" id="RM3Lines">       
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+
+
+
+</div><script>var $RMjQuery = jQuery.noConflict();$RMjQuery( document ).ready( function(){$RMjQuery( document ).on( 'click tap', function( e ){if( !$RMjQuery( e.target ).closest( '#responsive-menu, #click-menu' ).length ){closeRM()}});var isOpen = false;$RMjQuery( document ).on( 'click', '#click-menu', function(){$RMjQuery( '#responsive-menu' ).css( 'height', $RMjQuery( document ).height() );!isOpen ? openRM() : closeRM()});function openRM(){$RMjQuery( '#responsive-menu' ).css( 'display', 'block' );$RMjQuery( '#responsive-menu' ).addClass( 'RMOpened' );$RMjQuery( '#click-menu' ).addClass( 'click-menu-active' );$RMjQuery( '#responsive-menu' ).stop().animate({left: "0"}, 500, 'linear', function(){$RMjQuery( '#responsive-menu' ).css( 'height', $RMjQuery( document ).height() );isOpen = true})}function closeRM(){$RMjQuery( '#responsive-menu' ).animate({left: "-75%"}, 500, 'linear', function(){$RMjQuery( '#responsive-menu' ).css( 'display', 'none' );$RMjQuery( '#responsive-menu' ).removeClass( 'RMOpened' );$RMjQuery( '#click-menu' ).removeClass( 'click-menu-active' );isOpen = false})}$RMjQuery( window ).resize( function(){$RMjQuery( '#responsive-menu' ).css( 'height', $RMjQuery( document ).height() );if( $RMjQuery( window ).width() > 1024 ){if( $RMjQuery( '#responsive-menu' ).css( 'left' ) != '-75%' ){closeRM()}}});$RMjQuery( '#responsive-menu ul ul' ).css( 'display', 'none' );clickLink = '<span class=\"appendLink\">▼</span>';clickedLink = '<span class=\"appendLink rm-append-active\">▲</span>';excludeList = '.current-menu-item, .current-menu-ancestor, .current_page_ancestor';$RMjQuery( '#responsive-menu .menu-item-has-children' ).not( excludeList ).prepend( clickLink );$RMjQuery( '#responsive-menu .page_item_has_children.current-menu-item' ).prepend( clickedLink );$RMjQuery( '#responsive-menu .page_item_has_children.current-menu-ancestor' ).prepend( clickedLink );$RMjQuery( '#responsive-menu .menu-item-has-children.current-menu-item' ).prepend( clickedLink );$RMjQuery( '#responsive-menu .menu-item-has-children.current-menu-ancestor').prepend( clickedLink );$RMjQuery( '#responsive-menu .page_item_has_children' ).not( excludeList ).prepend( clickLink );$RMjQuery( '#responsive-menu .menu-item-has-children.current_page_ancestor' ).prepend( clickedLink );$RMjQuery( '#responsive-menu .page_item_has_children.current_page_ancestor' ).prepend( clickedLink );$RMjQuery( '.appendLink' ).on( 'click', function(){if( $RMjQuery( this ).closest( 'ul' ).is( '.responsive-menu' ) ){$RMjQuery( '.accordion-open' ).removeClass( 'accordion-open' );$RMjQuery( this ).parent( 'li' ).addClass( 'accordion-open' );$RMjQuery( '.responsive-menu li:not( .accordion-open ) > ul' ).slideUp()}$RMjQuery( this ).nextAll( '#responsive-menu ul ul' ).slideToggle();$RMjQuery( this ).html( $RMjQuery( this ).hasClass( 'rm-append-active' ) ? '▼' : '▲' );$RMjQuery( this ).toggleClass( 'rm-append-active' );$RMjQuery( '#responsive-menu' ).css( 'height', $RMjQuery( document ).height() )});$RMjQuery( '.rm-click-disabled' ).on( 'click', function(){if( $RMjQuery( this ).closest( 'ul' ).is( '.responsive-menu' ) ){$RMjQuery( '.accordion-open' ).removeClass( 'accordion-open' );$RMjQuery( this ).parent( 'li' ).addClass( 'accordion-open' );$RMjQuery( '.responsive-menu li:not( .accordion-open ) > ul' ).slideUp()}$RMjQuery( this ).nextAll( '#responsive-menu ul ul' ).slideToggle();$RMjQuery( this ).siblings( '.appendLink' ).html( $RMjQuery( this ).hasClass( 'rm-append-active' ) ? '▼' : '▲' );$RMjQuery( this ).toggleClass( 'rm-append-active' );$RMjQuery( '#responsive-menu' ).css( 'height', $RMjQuery( document ).height() )});$RMjQuery( '#responsive-menu ul li a' ).on( 'click', function(){closeRM()});$RMjQuery( '#responsive-menu .current_page_ancestor.menu-item-has-children' ).children( 'ul' ).css( 'display', 'block' );$RMjQuery( '#responsive-menu .current-menu-ancestor.menu-item-has-children' ).children( 'ul' ).css( 'display', 'block' );$RMjQuery( '#responsive-menu .current-menu-item.menu-item-has-children' ).children( 'ul' ).css( 'display', 'block' );$RMjQuery( '#responsive-menu .current_page_ancestor.page_item_has_children' ).children( 'ul' ).css( 'display', 'block' );$RMjQuery( '#responsive-menu .current-menu-ancestor.page_item_has_children' ).children( 'ul' ).css( 'display', 'block' );$RMjQuery( '#responsive-menu .current-menu-item.page_item_has_children' ).children( 'ul' ).css( 'display', 'block' )});</script><style type="text/css">
+                        div#fvfeedbackbutton0 {
+                            transform: none;
+                            -webkit-transform: none;
+                            -moz-transform: none;
+                            -moz-transform-origin: none;
+                            -o-transform: none;
+                            -o-transform-origin: none;
+                            -ms-transform: none;
+                            -ms-transform-origin: none;
+                            filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+
+                        }
+                        </style>
+                    <div   class="fvfeedbackbutton  " id="fvfeedbackbutton0"><a class="displayFormAnchor displayFormAnchor_0 "   href="http://www.quantiphi.com/contact-us/" data-count = "0" data-show-form = "0" title="Contact us" target="_self"><span><img src="http://www.quantiphi.com/wp-content/plugins/wpfixedverticalfeedbackbutton/images/contact_small.png" alt="contact_small.png" /></span></a></div><link rel='stylesheet' id='jquery.nyromodal-css'  href='http://www.quantiphi.com/wp-content/plugins/wpfixedverticalfeedbackbutton/js/jquery.nyroModal/styles/nyroModal.css?ver=1.0' type='text/css' media='' />
+<script type='text/javascript' src='http://www.quantiphi.com/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.quantiphi.com\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.quantiphi.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.1.1'></script>
+<script type='text/javascript' src='http://www.quantiphi.com/wp-content/themes/morpheus/js/jquery-ui.min.js'></script>
+<script type='text/javascript' src='http://www.quantiphi.com/wp-content/themes/morpheus/js/retina.min.js'></script>
+<script type='text/javascript' src='http://www.quantiphi.com/wp-content/themes/morpheus/js/perfect-scrollbar.js'></script>
+<script type='text/javascript' src='http://www.quantiphi.com/wp-content/themes/morpheus/js/jquery.smartresize.js'></script>
+<script type='text/javascript' src='http://www.quantiphi.com/wp-content/themes/morpheus/js/jquery.mousewheel.js'></script>
+<script type='text/javascript' src='http://www.quantiphi.com/wp-content/themes/morpheus/js/jquery.touchSwipe.min.js'></script>
+<script type='text/javascript' src='http://www.quantiphi.com/wp-content/themes/morpheus/js/superfish.js'></script>
+<script type='text/javascript' src='http://www.quantiphi.com/wp-content/themes/morpheus/js/jquery.fitvids.js'></script>
+<script type='text/javascript' src='http://www.quantiphi.com/wp-content/themes/morpheus/js/isotope.pkgd.js'></script>
+<script type='text/javascript' src='http://www.quantiphi.com/wp-content/themes/morpheus/js/jquery.magnific-popup.min.js'></script>
+<script type='text/javascript' src='http://www.quantiphi.com/wp-content/themes/morpheus/js/jquery.lazyload.js'></script>
+<script type='text/javascript' src='http://www.quantiphi.com/wp-content/themes/morpheus/js/jquery.flexslider-min.js'></script>
+<script type='text/javascript' src='http://www.quantiphi.com/wp-content/themes/morpheus/js/jquery.knob.js'></script>
+<script type='text/javascript' src='http://www.quantiphi.com/wp-content/themes/morpheus/js/jquery.countdown.js'></script>
+<script type='text/javascript' src='http://www.quantiphi.com/wp-content/themes/morpheus/js/shortcodes.js'></script>
+<script type='text/javascript' src='http://www.quantiphi.com/wp-content/themes/morpheus/js/common.js'></script>
+<script type='text/javascript' src='http://www.quantiphi.com/wp-content/themes/morpheus/js/page.sections.js'></script>
+<script type='text/javascript' src='http://www.quantiphi.com/wp-content/plugins/wpfixedverticalfeedbackbutton/js/jquery.nyroModal/js/jquery.nyroModal.custom.min.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.quantiphi.com/wp-content/plugins/wpfixedverticalfeedbackbutton/js/wpfixedverticalfeedbackbuttonfront.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.quantiphi.com/wp-content/plugins/easy-fancybox/fancybox/jquery.fancybox-1.3.7.min.js?ver=1.5.7'></script>
+<script type='text/javascript' src='http://www.quantiphi.com/wp-content/plugins/easy-fancybox/jquery.easing.pack.js?ver=1.3'></script>
+<script type='text/javascript' src='http://www.quantiphi.com/wp-content/plugins/easy-fancybox/jquery.mousewheel.min.js?ver=3.1.12'></script>
+<script type='text/javascript' src='http://www.quantiphi.com/wp-content/plugins/easy-fancybox/jquery.metadata.pack.js?ver=2.1'></script>
+
+<script type="text/javascript">
+jQuery(document).on('ready post-load', easy_fancybox_handler );
+</script>
+
+</body>
+</html>
